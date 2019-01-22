@@ -60,7 +60,7 @@ span.menu {
 }
 .top-nav {
   float: left;
-  width: 50%;
+  width: 58%;
 }
 .top-nav ul {
   padding: 0em;
@@ -240,7 +240,7 @@ span.menu {
 
 .bannerin {
   background: url(../image/42.1Banner_old.png)no-repeat;
-  min-height: 350px;
+  min-height: 315px;
   background-size: cover;
 }
 
@@ -257,6 +257,31 @@ span.menu {
   margin-bottom: 40px;
 }
 .banner-inner p {
+  font-size: 1em;
+  color: #fff;
+}
+
+
+
+.bannerevent {
+  background: url(../image/event.png)no-repeat;
+  min-height: 315px;
+  background-size: cover;
+}
+
+.banner-event {
+  padding: 10em 0em 0em 0em;
+  text-align: center;
+}
+.banner-event h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.banner-event p {
   font-size: 1em;
   color: #fff;
 }
@@ -434,6 +459,12 @@ i.glyphicon.glyphicon-comment {
   padding: 2em 0em 5em 0em;
   background-color: #f2f2f2;
 }
+
+.about-us {
+  padding: 2em 0em 5em 0em;
+  background-color: #f9f9f9;
+}
+
 .about-top {
   text-align: center;
 }
@@ -451,7 +482,7 @@ i.glyphicon.glyphicon-comment {
   line-height: 1.8em;
 }
 .about-left h4 {
-  font-size: 3em;
+  font-size: 2em;
   color: #660000;
   margin: 0em 0em 0.4em 0em;
   font-family: 'Montserrat', sans-serif;
@@ -2199,8 +2230,8 @@ body {
 
 .flip-box {
   background-color: transparent;
-  width: 90%;
-  height: 340px;
+  width: 100%;
+  height: 185px;
   border: 0px solid #f1f1f1;
   perspective: 1000px;
 }
@@ -2299,7 +2330,89 @@ margin-bottom: 100px !important;
     width:100%;
 }
 
+.team-content{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.mentor-imgs,.mentor-img{
+  height: 248px;
+    width: 235px;
+    border: 1px solid #660000;
+    margin-left: -30px;
+}
+
+.mentor-img-sec{
+  height: 248px;
+  width: 235px;
+  border: 1px solid #660000;
+  margin-left: -20px;
+}
+
+.mentor-img-third{
+  height: 248px;
+  width: 235px;
+  border: 1px solid #660000;
+  margin-left: -25px;
+}
+
+.mentor-img-four{
+  height: 248px;
+  width: 235px;
+  border: 1px solid #660000;
+  margin-left: -15px;
+}
+
+.mentor-list{
+  background-color: #f2f2f2;
+}
+
 @media(max-width:768px){
+
+  .mentor-list{
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+  .mentor-img{
+    height: 248px;
+      width: 235px;
+      border: 1px solid #660000;
+    margin-left: 0px;
+  }
+
+  .mentor-imgs{
+    height: 248px;
+      width: 235px;
+      border: 1px solid #660000;
+      margin-left: 0px;
+      margin-top: 70px;
+  }
+
+  .mentor-img-sec{
+    height: 248px;
+    width: 235px;
+    border: 1px solid #660000;
+    margin-top: 50px;
+  }
+
+  .mentor-img-third{
+    height: 248px;
+    width: 235px;
+    border: 1px solid #660000;
+    margin-left: 0px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+  }
+
+  .mentor-img-four{
+    height: 248px;
+    width: 235px;
+    border: 1px solid #660000;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
 
 .image-responsive{
   height:227px;
@@ -2317,11 +2430,19 @@ margin-bottom: 100px !important;
 
 .flip-box {
     background-color: transparent;
-    width: 90%;
-    height: 240px;
+    width: 100%;
+    height: 230px;
     border: 0px solid #f1f1f1;
     perspective: 1000px;
 }
+
+
+.team-content{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
 
 span.ab-line{
   background: transparent;
@@ -2471,6 +2592,8 @@ color: #FFF;
   margin-right: 28%;
 }
 
+
+
 @media(max-width:768px){
   .top-meal-text{
   text-align: center;
@@ -2483,8 +2606,13 @@ color: #FFF;
 
 }
 
+.draw-line{
+  border: 1px solid #660000;
+margin-top: 51px;
+}
+
 .meal-btn{
-  margin-left: 15%;
+/*  margin-left: 15%;*/
 }
 
 .top-meal-text h3 {
@@ -2638,6 +2766,11 @@ margin-top: 20px;
 
 }
 
+.txt-color{
+  color:  #660000 !important;
+
+    font-weight: bold;
+}
 
 .clred{
   color: #333;
@@ -2645,4 +2778,71 @@ margin-top: 20px;
 
 .clred:hover{
   color: #660000;
+}
+
+.captch{
+  background-color: white;
+    color: #660000;
+    font-weight: bold;
+ padding: 10px;
+ border: 2px solid gray;
+ margin: 0;
+}
+
+.top-bar{
+      width: 40% !important;
+}
+
+
+.team-head{
+  font-size: 2em;
+color: #660000;
+margin: 0em 0em 0.4em 0em;
+/*font-family: 'Montserrat', sans-serif;*/
+font-weight: bold;
+}
+
+.header_ab{
+  text-align: center;
+    font-weight: bold;
+    color: #660000;
+    font-size: 1.2em;
+
+}
+
+.header_bn{
+  margin: 30px 20px 20px 0px;
+    font-weight: bold;
+    color: #660000;
+    font-size: 1.2em;
+
+}
+
+.ab_sub_hed{
+  font-size: 13px;
+text-align: center;
+color: #660000;
+}
+
+.ban_sub_hed{
+  font-size: 13px;
+  color: #660000;
+}
+
+.text-justify{
+      text-align: justify !important;
+}
+
+
+.modal-body p{
+  margin-bottom: 10px;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.modal-head-text{
+    font-weight: bold;
+    color: #660000;
+    font-size: 1.2em;
+
 }

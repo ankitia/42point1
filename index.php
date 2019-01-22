@@ -11,9 +11,98 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 		<!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="" />
 
+		<meta name="keywords" content="" />
+		<style>
+		* {box-sizing: border-box;}
+
+		.mySlides {display: none;}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 100%;
+		  position: relative;
+		  margin: auto;
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			 font-size: 15px;
+			 padding: 14px 7px;
+			 position: absolute;
+			 bottom: 23px;
+			 width: 185px;
+			 text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
+
+
+		/* The dots/bullets/indicators */
+		.dot {
+		  height: 13px;
+		  width: 13px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 15s ease;
+		}
+
+	/*	.active {
+		  background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 25.0s;
+		  animation-name: fade;
+		  animation-duration: 25.0s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: 1.4}
+		  to {opacity: 2}
+		}
+
+		@keyframes fade {
+		  from {opacity: 1.4}
+		  to {opacity: 2}
+		}
+
+		.slider_im{
+			width:100%;
+			height: 550px;
+		}
+
+
+		.header_btn{
+			margin-top: 200px;
+		  height: 50px;font-size:15px;background-color:#333;
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 500px) {
+		  .text {font-size: 11px}
+			.slider_im{
+				width:100%;
+				height:200px;
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (min-device-width: 1500px) and (max-device-width: 1024px) {
+			.header_btn{
+				margin-top: 250px;
+				height: 50px;font-size:15px;background-color:#333;
+			}
+		}
+
+
+		</style>
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -97,64 +186,39 @@ function Captcha(){
 
 
 <body onload="Captcha();">
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM4X7LN"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!--header start here-->
 
-<!--<div class="header">
-	<div class="container">
-		<div class="header-main">
-			  <div class="logo">
-			  	<a href="index.html"><img src="image/logo-dark.png" style="height: 40px;"> </a>
-			  </div>
-        </div>
-	</div>
-</div>-->
-<div class="navg-strip" id="myHeader">
-    <div class="container" >
-      <div class="navg-main">
-		 <div class="top-nav" >
-		 	 <span class="menu"> <img src="images/icon.png" alt=""/></span>
-			<ul class="res">
-			  <li><a href="http://www.42point1.com/" class="active"><img src="image/logo-dark.png" style="height: 40px;"> </a></li>
-			</ul>
-			<!--script-->
-						<script>
-							$("span.menu").click(function(){
-								$("ul.res").slideToggle(500, function(){
-								});
-							});
-					</script>
-		 </div>
+<?php include "include/header.php" ?>
 
-			 <div class="top-nav social-icons text-right" style="padding: 10px;" >
-				 <ul class="res" style="float:left;    margin-top: 5px;">
-	 			  <li><a href="huddle.html">HUDDLE</a></li>
-	 				<li><a href="#" >WHAT'S UP?</a></li>
-	 				<li><a href="#" >GEAR-UP</a></li>
-	 				<li><a class="scroll" href="#services">MEAL-A-MILE</a></li>
-				</ul>
-				<ul>
-					<li><a href="https://www.instagram.com/42point1" target="_blank"><span class="fa"> </span></a></li>
-					<li><a href="https://www.facebook.com/42point1/" target="_blank"><span class="tw"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
-	 			</ul>
-			 </div>
-
-		  <div class="clearfix"> </div>
-
-   </div>
-  </div>
-</div>
-<!--header end here-->
 <!--banner start here-->
-<div class="banner">
+<div class="slideshow-container">
+
+<!--	<div class="mySlides fade">
+		<img src="image/Tri-For-Fitness.jpg" class="slider_im" alt="Tri-For-Fitness">
+		<a href="https://www.facebook.com/events/387317428503810/"  target="_blank" class="text btnout_wh header_btn">View Details</a>
+	</div>
+-->
+<div class="mySlides fade">
+	<img src="image/42.1Banner.jpg" class="slider_im" alt="42.1Banner">
+</div>
+<div class="mySlides fade">
+	<img src="image/42.1Banner.jpg" class="slider_im" alt="42.1Banner">
+</div>
+
+</div>
+
+
+
+<div style="text-align: center;position: relative; z-index: 155; margin-top: -40px; margin-bottom: 23px;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+
+<!--<div class="banner">
 	<div class="container">
 		<div class="banner-main">
 			<h2>Open House</h2>
-			<a class="btnout success btn-lg mg-bt-30 mg-tp-120 text-uppercase" href="why-42.1.html">Experience 42.1</a>
+			<a class="btnout success btn-lg mg-bt-30 mg-tp-120 text-uppercase" href="event.php">Experience 42.1</a>
 		</div>
 	</div>
 </div>
@@ -167,7 +231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="col-md-6 text-left">
 					<h3 class="text-uppercase">MEAL A MILE</h3>
 						<p class="meal_mile_header">Open on weekends only, for now, Meal-a-Mile serves food (designed by TERRA) that is sensitive to the needs of endurance enthusiasts or anyone looking to make their day a bit healthier and a lot brighter. </p> <br />
-						<a class="btnout meal-btn red mg-bt-30 text-uppercase" href="huddle.html">Read More</a>
+						<a class="btnout meal-btn red mg-bt-30 text-uppercase" href="huddle.php">Read More</a>
 				 </div>
 			</div>
 	</div>
@@ -218,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									<strong>Dec 11, 2018</strong>
 									<p style="margin-right: 4%;">Pain is temporary, suffering is optional, quitting lasts forever. I never fully understood the meaning of this old saying until I started running a few years ago. For the most part of my life I have followed some form of fitness or sport. However, running simply happened to me. And what’s more - very soon in my running regimen I realized it was so much more than fitness. It was meditational, medicinal almost.</p>
 									<br />
-									<a class="btnout_wh danger mg-bt-30 mg-tp-10 text-uppercase" href="why-42.1.html">Read More</a>
+									<a class="btnout_wh danger mg-bt-30 mg-tp-10 text-uppercase" href="why-42.1.php">Read More</a>
 							</div>
 						<div class="col-md-1">&nbsp;</div>
 						</div>
@@ -256,17 +320,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 
 			<div class="clearfix"> </div><br />
-			<div class="col-md-1">&nbsp;</div>
+			<div class="col-md-2">&nbsp;</div>
 			<div class="col-md-3 contact-left">
 				<p  id="mainCaptcha" class="captch" />
 			</div>
 			<div class="col-md-2 contact-left">
-				<input type="button" id="refresh" class="btnout white text-uppercase" value="Refresh" onclick="Captcha();" />
+				<input type="button" id="refresh" class="btnout white text-uppercase" value="Refresh" onclick="Captcha();" style="    margin-left: 15px;" />
 			</div>
 			<div class="col-md-3 contact-left">
-            <input type="text" id="txtInput" placeholder="Enter captch"  required />
+            <input type="text" id="txtInput" class="text-uppercase" placeholder="Enter captcha"  required />
 			</div>
-			<div class="col-md-10 contact-right text-center">
+			<div class="col-md-12 contact-right text-center">
 				<input type="submit" id="subscribeButton"   class="btnout white mg-tp-20 text-uppercase" value="Subscribe">
 			</div>
 		   </div>
@@ -276,61 +340,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <!--contact end here-->
 <!--footer start here-->
-<div class="footer">
-	<div class="container">
-		<div class="footer-main">
-
-			<div class="col-md-12 ftr-grd text-center">
-				<a href="#"><img src="image/logo-dark.png" style="margin: 10px 0px 10px -15px;height: 40px;"></a>
-				<p>A Property of Athletica Events LLP.</p>
-			</div>
-
-			 <div class="col-md-3 ">&nbsp;</div>
-             <div class="col-md-4 ftr-grd mg-tp-20">
-                 <h3>SITE LINK</h3>
-                <ul class="ftr-links">
-                	<li><a href="huddle.html">Huddle</a></li>
-                	<li><a href="#">Meal-a-Mile</a></li>
-                	<li><a href="#">Gear-Up</a></li>
-                	<li><a href="#">Mentors-on-Board	</a></li>
-                	<li><a href="why-42.1.html">Why 42.1?</a></li>
-                </ul>
-             </div>
-             <div class="col-md-5 ftr-grd mg-tp-20">
-                   <h3>ADDRESS</h3>
-                   <ul class="ftr-categ">
-										 <li><font color="#660000"> <span class="glyphicon glyphicon-map-marker"></span></font> 6th Floor, A Wing, Westgate, Beside YMCA Club, </li>
-										 <li> &nbsp;&nbsp;&nbsp;&nbsp; SG Hwy, Ahmedabad, Gujarat - 15</li>
-										 <li class="mg-tp-10"><font color="#660000"> <span class="glyphicon glyphicon-earphone"></span></font><strong> Phone Number:</strong><a href="tel:+917966118081" target="_top"> +91 79 6611 8081</a> </li>
-										 <li class="mg-tp-10"><font color="#660000"> <span class="glyphicon glyphicon-envelope"></span></font><strong> Email: </strong><a href="mailto:community@42Point1.com" target="_top"> community@42Point1.com </a></li>
-								 	</ul>
-
-             </div>
-
-
-          <div class="clearfix"> </div>
-					<div class="col-md-12 text-center footer_icon">
-						<a href="https://www.instagram.com/42point1" target="_blank" class="fa fa-instagram social clred"></a>
-						<a a href="https://www.facebook.com/42point1/" target="_blank" class="fa fa-facebook social clred"></a>
-						<a href="#" class="fa fa-twitter social clred"></a>
-					</div>
-		</div>
-	</div>
-</div>
+		<?php include "include/footer.php" ?>
 <!--footer end here-->
-<!--copyright start here-->
-<div class="copyright">
-	<div class="container">
-	   <div class="copy-main">
-			<p>© 2018 All rights reserved </p>
-	   </div>
-					 <script type="text/javascript">
-						$(document).ready(function() {
-						 	$().UItoTop({ easingType: 'easeOutQuart' });
-						});
-					</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-  </div>
-</div>
-<!--copyright end here-->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
 </html>
