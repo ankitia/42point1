@@ -2,7 +2,7 @@
 <html>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-		<title>42.1</title>
+		<title>42.1 | Meal-a-Mile</title>
 		<link rel="shortcut icon" type="image/png" href="image/favicon.png"/>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Gear Up</h2>
+			<h2>Meal-a-Mile</h2>
 		</div>
 	</div>
 </div>
@@ -63,26 +63,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--single start here-->
 		 <div class="single">
 			<div class="container">
-			<div class="col-md-12 ">
-				<div class=" single-grid" style="text-align:justify;">
-
-						<img src="image/gear-up-icone.png" alt="gear-up" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
-						<!--<h4>HUDDLE</h4>-->
-						<div class="cal">
-							<ul>
-								<!--<li><span ><i class="glyphicon glyphicon-calendar"> </i>12.12.2018</span></li>-->
-								<!--<li><a href="#" ><i class="glyphicon glyphicon-comment"> </i>24</a></li>-->
-							</ul>
-						</div>
-						<p>Welcome to Gear Up, an exclusive offline store designed for the 42.1 community members to help them find the right gear at the best price. Gear Up looks to offer an extensive range of sports merchandise and equipment with the aim of serving and inspiring athletes and outdoor enthusiasts to achieve their personal best.	</p>
-
-						<p>We want the experience of buying the products to be as fun as owning them. We stand by the products and offer only a curated line of merchandise. We believe in continuous improvement and are always looking to serve you with the best.</p>
-
-						<p>So, if there is something the store does not provide, do let us know! We'll do our best to source said merchandise/gear for you. We request you to keep checking this space for updates. Alternatively, you could subscribe to our newsletter and be among the firsts to receive any news or update.</p>
-
-						<p>To become a member, fill out a <strong>Membership Form</strong>.<p>
+			<div class="col-md-8 ">
+				<div class=" single-grid">
 
 
+					<div class="lone-line" style="text-align:justify;">
+						<img src="image/meal-icon.png" alt="Meal-a-Mile" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
+						<p>Welcome to Meal-a-Mile!  The food we serve caters to the needs of endurance sports enthusiasts or anyone looking out for healthy food alternatives. The fresher the ingredients, the more delicious and healthier your meal will be! Hence, we ensure fresh and healthy ingredients are the mainstay of the dishes that we serve. Terra is our meal partner, and they ensure that you can bond with fellow endurance sport athletes and food lovers over some seriously delicious yet healthy food.
+							</p>
+
+						<p>Meal-a-Mile currently operates only on weekends and is exclusive to 42point1 community members. At Meal-a-Mile we care about your health as much as your taste buds. Repetition is boring, so we like to keep things fresh with a custom curated menu. This way you can try something new every time you visit especially since the meals are not only fresh and healthy but also are light on the pocket. All meals come at a special discounted price for all community members.</p>
+
+						<p>We also have on board Greenobazaar, whose premium products you can shop at Meal-a-Mile. From millet noodles to organic pumpkin seeds and everything in between you will find here! </p>
+
+						<p><p>
+
+					</div>
 				</div>
 <!--
 					<div class=" single-profile">
@@ -115,41 +111,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 				</div>
-					<!--<div class="col-md-3 categories-grid">
+					<div class="col-md-3 categories-grid">
 				<div class="grid-categories">
-					<h4>Categories</h4>
+					<h4 class="text-uppercase">Partners</h4>
 					<ul class="popular ">
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Nutrition</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Wholesome Meals</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Athlete Diet</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Food</a></li>
+						<li><a href="terra.php"><i class="glyphicon glyphicon-play"> </i>TERRA</a></li>
+						<li><a href="greenobazaar.php" class="text-uppercase"><i class="glyphicon glyphicon-play"> </i>Greenobazaar</a></li>
 					</ul>
 				</div>
-			</div>-->
+			</div>
 				<div class="clearfix"> </div>
 
 			</div>
-
-		<!--	<div class="test-grid-img">
-	<div class="container">
-		<div class="test-grid-img-main">
-			  <div class="col-md-4 test-grid">
-			  		<a href="#">
-							<img src="images/t1.jpg" alt="" class="img-responsive">
-						</a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t2.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t3.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div> -->
-
-
 	</div>
 
 <!--//single end here-->

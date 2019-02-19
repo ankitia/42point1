@@ -47,7 +47,7 @@ if($longDist=="on"){
   $injury = "<input type='checkbox' checked disabled> ";
 }if($racing=="on"){
   $racing = "<input type='checkbox' checked disabled> ";
-} 
+}
 
 if($otherGuid=="on"){
   $otherGuid = "<input type='checkbox' checked disabled> ";
@@ -59,10 +59,8 @@ $agree = "<input type='checkbox' checked disabled> ";
 
 $to = "community@42point1.com,marketing@42point1.com";
 //$to = "ankit.shah@infoanalytica.com";
-//$to = "community@42point1.com";
 $subject = "MEMBERSHIP FORM";
 
-if($name!=""){
 
 $message = "
 <html>
@@ -153,6 +151,11 @@ background: #B2D430;
     <td colspan='6'><strong>".$agree." I agree to the Terms & Conditions</strong></td>
   </tr>
 </table>
+".
+$training
+
+
+."
 </body>
 </html>
 ";
@@ -167,6 +170,7 @@ $headers .= 'From: <marketing@42point1.com>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
 echo "<script type='text/javascript'>window.location.href = 'http://42point1.com/';</script>";
-//echo "this is call send mail";
-}
+
+
+
 ?>

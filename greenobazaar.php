@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Gear Up</h2>
+			<h2>Meal-a-Mile</h2>
 		</div>
 	</div>
 </div>
@@ -64,25 +64,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		 <div class="single">
 			<div class="container">
 			<div class="col-md-12 ">
-				<div class=" single-grid" style="text-align:justify;">
+				<div class=" single-grid">
 
-						<img src="image/gear-up-icone.png" alt="gear-up" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
-						<!--<h4>HUDDLE</h4>-->
+					<ul class="breadcrumb">
+					  <li><a href="http://www.42point1.com/">Home</a></li>
+					  <li><a href="meal-a-mile.php">MEAL-A-MILE</a></li>
+					  <li  class="text-uppercase">WORDS BY Greenobazaar</li>
+					</ul>
+
+					<div class="lone-line" style="text-align: justify;" >
+
+						<h4  class="text-uppercase text-left gr-tx-ce" style="margin-bottom: 0px;">WORDS BY Greenobazaar</h4>
+						<span class="green_bazaar"> <img src="image/Greenobazar-logo.png" alt="GREENOBAZAAR"  /></span>
 						<div class="cal">
 							<ul>
 								<!--<li><span ><i class="glyphicon glyphicon-calendar"> </i>12.12.2018</span></li>-->
 								<!--<li><a href="#" ><i class="glyphicon glyphicon-comment"> </i>24</a></li>-->
 							</ul>
 						</div>
-						<p>Welcome to Gear Up, an exclusive offline store designed for the 42.1 community members to help them find the right gear at the best price. Gear Up looks to offer an extensive range of sports merchandise and equipment with the aim of serving and inspiring athletes and outdoor enthusiasts to achieve their personal best.	</p>
+						<p style="    margin-top: 34px;">Greenobazaar looks to promote healthy living. We are dedicated to help you choose a healthier lifestyle and offer choices of healthy varieties for consumption by providing pure and sustainable production. We serve only handpicked, certified organic and 100% natural products and work towards creating awareness about conscious consumption and sourcing for supporting our end goal of healthy living.</p>
+ 
+						<p>Deadly & dreaded diseases are wide spread due to consumption and production of food, cosmetics and other consumer goods made from harmful and carcinogenic or non-bio degradable chemicals and materials which not only harm the end user, the consumer, but also harm the environment and the cycle of sustainability. Also, production by harmful methods adds burden of disposal which is one of the biggest challenges many countries face today. One of the ways to address the disposal of non-biodegradable goods is to efficiently recycle and up cycle them for our end use.</p>
 
-						<p>We want the experience of buying the products to be as fun as owning them. We stand by the products and offer only a curated line of merchandise. We believe in continuous improvement and are always looking to serve you with the best.</p>
+						<p>Greenobazaar does that and more! Having faith in the process of creating awareness and giving people the option of making conscious decisions, we feel secure in addressing health and environmental needs by reducing pollution directly and indirectly on our dear planet. As India is an agro based economy, adopting organic and natural agricultural methods would immediately stop soil, water and air pollution and eventually would provide us pure and nutritious food and this solution would very well address the other bigger health issue. Just imagine all of India going organic, irrespective of being poor or rich all would only consume organic and it would no more be a choice and privilege of rich but a right of every citizen (like our very own State Sikkim which is officially 100% organic today).</p>
 
-						<p>So, if there is something the store does not provide, do let us know! We'll do our best to source said merchandise/gear for you. We request you to keep checking this space for updates. Alternatively, you could subscribe to our newsletter and be among the firsts to receive any news or update.</p>
+						<p>Health is our passion, be it in wanting to ensure healthy consumers or taking care of our environment. The imbibed values of Greenobazaar seemed synonymous with 42.1 and Terra and so it felt right walking along with them on a common path. We only had online presence till date and we always wished for physical presence too as our products are not only Organic but also are unique in range. Desired and utmost needed by the fitness crowd in town, healthy options were few to none. We are excited to showcase our range and help and grow by producing products that perfectly compliment the nutritional needs of the health conscious and aware folks. All these aspects turned out to be a perfect fit for us with 42.1 and Terra.<p>
 
-						<p>To become a member, fill out a <strong>Membership Form</strong>.<p>
-
-
+					</div>
 				</div>
 <!--
 					<div class=" single-profile">
@@ -129,27 +137,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class="clearfix"> </div>
 
 			</div>
-
-		<!--	<div class="test-grid-img">
-	<div class="container">
-		<div class="test-grid-img-main">
-			  <div class="col-md-4 test-grid">
-			  		<a href="#">
-							<img src="images/t1.jpg" alt="" class="img-responsive">
-						</a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t2.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t3.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-</div> -->
-
-
 	</div>
 
 <!--//single end here-->

@@ -3268,7 +3268,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger {
   color: #fff;
   /*background-color: #d9534f;*/
-  background-color: #d24230;  
+  background-color: #d24230;
   border-color: #d43f3a;
 }
 .btn-danger:hover,
@@ -4595,10 +4595,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
+  padding: 0px 0px;
+  margin-bottom: 0px;
   list-style: none;
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   border-radius: 4px;
 }
 .breadcrumb > li {

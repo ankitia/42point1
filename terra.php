@@ -54,7 +54,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Let’s Go 42.1</h2>
+			<h2>Meal-a-Mile</h2>
 		</div>
 	</div>
 </div>
@@ -63,11 +63,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--single start here-->
 		 <div class="single">
 			<div class="container">
-			<div class="col-md-8 ">
+			<div class="col-md-12 ">
 				<div class=" single-grid">
-					<div class="lone-line">
+
+					<ul class="breadcrumb">
+					  <li><a href="http://www.42point1.com/">Home</a></li>
+					  <li><a href="meal-a-mile.php">MEAL-A-MILE</a></li>
+					  <li>WORDS BY TERRA</li>
+					</ul>
+
+					<div class="lone-line" style="text-align:justify;">
 						<img src="image/terra-logo.png" alt="Terra" style="float: right; margin: -10px 15px 10px 10px;" />
-						<h4>TERRA & 42.1</h4><br />
+						<h4 style="margin-bottom: 0px;">WORDS BY TERRA</h4><br />
 						<div class="cal">
 							<ul>
 								<!--<li><span ><i class="glyphicon glyphicon-calendar"> </i>12.12.2018</span></li>-->
@@ -115,7 +122,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 				</div>
-					<div class="col-md-3 categories-grid">
+					<!--<div class="col-md-3 categories-grid">
 				<div class="grid-categories">
 					<h4>Categories</h4>
 					<ul class="popular ">
@@ -125,7 +132,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Food</a></li>
 					</ul>
 				</div>
-			</div>
+			</div>-->
 				<div class="clearfix"> </div>
 
 			</div>

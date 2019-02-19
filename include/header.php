@@ -1,7 +1,7 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM4X7LN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-<div class="navg-strip" id="myHeader">
+<div class="navbar navg-strip" id="myHeader">
     <div class="container" >
       <div class="navg-main">
 		 <div class="top-nav top-bar" >
@@ -21,15 +21,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			 <div class="top-nav social-icons text-right" style="padding: 10px;" >
 				 <ul class="res" style="float:left;margin-top: 1px;">
 	 			  <li><a href="huddle.php">HUDDLE</a></li>
-	 				<li><a href="#" >GEAR-UP</a></li>
-	 				<li><a class="scroll" href="#services">MEAL-A-MILE</a></li>
+          <li><a href="meal-a-mile.php">MEAL-A-MILE</a></li>
+	 				<li><a href="gear-up.php" >GEAR-UP</a></li>
           <li><a href="#" >WHAT'S UP?</a></li>
           <li><a href="about-us.php" >ABOUT US</a></li>
 				</ul>
 				<ul>
 					<li><a href="https://www.instagram.com/42point1" target="_blank"><span class="fa"> </span></a></li>
 					<li><a href="https://www.facebook.com/42point1/" target="_blank"><span class="tw"> </span></a></li>
-					<li><a href="#"><span class="g"> </span></a></li>
+					<li><a href="https://twitter.com/Community42pt1"  target="_blank"><span class="g"> </span></a></li>
 	 			</ul>
 			 </div>
 

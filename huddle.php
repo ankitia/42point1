@@ -64,9 +64,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		 <div class="single">
 			<div class="container">
 			<div class="col-md-12 ">
-				<div class=" single-grid">
+				<div class=" single-grid" style="text-align:justify;">
 
-						<img src="image/huddle-icon.png" alt="Terra" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
+						<img src="image/huddle-icon.png" alt="Huddle" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
 						<!--<h4>HUDDLE</h4>-->
 						<div class="cal">
 							<ul>
@@ -130,7 +130,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 			</div>
 
-			<div class="test-grid-img">
+		<!--	<div class="test-grid-img">
 	<div class="container">
 		<div class="test-grid-img-main">
 			  <div class="col-md-4 test-grid">
@@ -147,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-</div>
+</div> -->
 
 
 	</div>

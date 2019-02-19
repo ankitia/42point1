@@ -57,7 +57,7 @@
 	<div class="container">
 		<div class="about-main">
 			<div class="about-bottom">
-				<div class="col-md-12 about-left">
+				<div class="col-md-12 about-left" style="text-align:justify;">
 					<h4 class="text-uppercase">Why 42.1?</h4>
 					<!--<h5>Officia deserunt mollit anim id est laborum</h5>-->
 					<p>Pain is temporary, suffering is optional, quitting lasts forever. I never fully understood the meaning of this old saying until I started running a few years ago. For the most part of my life I have followed some form of fitness or sport. However, running simply happened to me. And what’s more - very soon in my running regimen I realized it was so much more than fitness. It was meditational, medicinal almost. </p>
