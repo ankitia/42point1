@@ -14,6 +14,11 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="" />
 
+
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" 	 rel = "stylesheet">
+		<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -24,11 +29,20 @@
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
 			});
+
+			$(function() {
+				 $( "#datepicker-12" ).datepicker({
+						 changeYear:true,
+						 yearRange: "1955:2010"
+				 });
+				 //$( "#datepicker-12" ).datepicker("setDate", "10w+1");
+			});
 	</script>
 <!-- //end-smoth-scrolling -->
 
 <script src='../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 <script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+
 
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -42,7 +56,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
 <!-- End Google Tag Manager -->
-
+<style>
+.ui-datepicker .ui-datepicker-header{
+	color: black;
+}
+</style>
 </head>
 <body>
 
@@ -129,7 +147,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div class="form-group col-md-6">
       <label for="inputDOB">Date of Birth</label>
-      <input type="date" class="form-control" id="inputDOB" name="bdate" required placeholder="Date of Birth">
+      <!--<input type="date" class="form-control" id="inputDOB" name="bdate" required placeholder="Date of Birth">-->
+			<input type="text" id="datepicker-12" class="form-control" placeholder="Date of Birth* (DD/MM/YYYY)"  name="bdate" required="">
     </div>
   </div>
 	<div class="form-group col-md-12">
@@ -198,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		 <input type="text" class="form-control" id="inputGAddress" name="trained" placeholder="Have you trained under (or currently have) a coach? If so, please provide name and contact number.">
 	 </div>
 	 <div class="form-group col-md-5">
-		 <label for="inputAttachments">Please upload supporting documents:</label>
+		 <label for="inputAttachments">Please upload a zip file of the supporting documents:</label>
 			 <ul>
 				 <li>ID Proof</li>
 				 <li>Address Proof</li>
@@ -207,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				 <li>School Certifications</li>
 				 <li>NOC from your current coach/ trainer/ school</li>
 			 </ul>
-		 <input type="file" class="form-control" id="inputfile" name="inputfile" placeholder="">
+		 <input type="file" class="form-control" id="attachment" name="attachment" placeholder="">
 	 </div>
 	 <div class="form-group col-md-8">&nbsp;</div>
 	 	<div class="form-group col-md-12">

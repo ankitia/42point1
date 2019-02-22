@@ -19,15 +19,19 @@ $competitive = $_POST['competitive'];
 $persong = $_POST['persong'];
 $clubGroup = $_POST['clubGroup'];
 $trained = $_POST['trained'];
-//$inputfile = $_POST['inputfile'];
- 
+$inputfile = $_POST['inputfile'];
+
 
 $date=date_create($bdate);
 $bdate = date_format($date,"d/m/Y");
 
 
+//$to = "community@42point1.com,marketing@42point1.com";
+$to = "ankit.shah@infoanalytica.com";
+$subject = "APPLICATION FORM";
 
-$message1 = "
+
+$message = "
 <html>
 <head>
 <title>HTML email</title>
@@ -156,65 +160,15 @@ background: #B2D430;
 </html>
 ";
 
-
-
-//$message = strip_tags($message1);
-$attachment = chunk_split(base64_encode(file_get_contents($_FILES['attachment']['tmp_name'])));
-$filename = $_FILES['attachment']['name'];
-
-$boundary =md5(date('r', time()));
-
-
-
-$message="This is a multi-part message in MIME format.
-
---_1_$boundary
-Content-Type: multipart/alternative; boundary=\"_2_$boundary\"
-
---_2_$boundary
-Content-Type: text/html; charset=\"UTF-8\"
-Content-Transfer-Encoding: 7bit
-
-$message1
-
---_2_$boundary--
---_1_$boundary
-Content-Type: application/octet-stream; name=\"$filename\"
-Content-Transfer-Encoding: base64
-Content-Disposition: attachment
-
-$attachment
---_1_$boundary--";
-
-
-
-
-
-
-$to = "community@42point1.com,marketing@42point1.com,ankit.shah@infoanalytica.com";
-//$to = "ankit.shah@infoanalytica.com";
-$subject = "APPLICATION FORM";
-
-
-
 // Always set content-type when sending HTML email
-//$headers = "MIME-Version: 1.0" . "\r\n";
-//$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-$headers = "From: marketing@42point1.com\r\nReply-To: marketing@42point1.com";
-$headers .= "\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed; boundary=\"_1_$boundary\"";
-//$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 // More headers
-//$headers .= 'From: <marketing@42point1.com>' . "\r\n";
+$headers .= 'From: <marketing@42point1.com>' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
-//mail($to,$subject,$message,$headers);
-
-// Send email
-mail($to, $subject, $message, $headers);
-//$mail = mail($to, $subject, $message, $headers, $returnpath);
-
-//echo "mail send successfully---".$message;
+mail($to,$subject,$message,$headers);
 echo "<script type='text/javascript'>window.location.href = 'http://42point1.com/adopt.php';</script>";
 
 

@@ -23,8 +23,8 @@ $racing = $_POST['racing'];
 $otherDetails = $_POST['otherDetails'];
 $otherGuidance = $_POST['otherGuidance'];
 
-$date=date_create($age);
-$age = date_format($date,"d/m/Y");
+//$date=date_create($age);
+//$age = date_format($date,"d/m/Y");
 
 if($running=="on"){
   $running = "<input type='checkbox' checked disabled> ";
@@ -47,7 +47,7 @@ if($longDist=="on"){
   $injury = "<input type='checkbox' checked disabled> ";
 }if($racing=="on"){
   $racing = "<input type='checkbox' checked disabled> ";
-} 
+}
 
 if($otherGuid=="on"){
   $otherGuid = "<input type='checkbox' checked disabled> ";
@@ -57,7 +57,7 @@ if($otherGuid=="on"){
 $agree = "<input type='checkbox' checked disabled> ";
 
 
-$to = "community@42point1.com,marketing@42point1.com";
+$to = "community@42point1.com,marketing@42point1.com,ankit.shah@infoanalytica.com";
 //$to = "ankit.shah@infoanalytica.com";
 //$to = "community@42point1.com";
 $subject = "MEMBERSHIP FORM";

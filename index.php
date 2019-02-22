@@ -450,8 +450,7 @@ function Captcha(){
 			<!--<input type="text" name="other" placeholder="other"  />-->
 
 			</div>
-			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 10px;">
-				<div>&nbsp;</div>
+			<div class="col-md-3 contact-left show-inte">
 				<div class="custom-control custom-checkbox">
 						<input type="checkbox" class="custom-control-input" id="cycling" name="cycling">
 						<label class="custom-control-label" for="cycling">Cycling</label>
@@ -462,8 +461,7 @@ function Captcha(){
 						<label class="custom-control-label" for="swimming">Swimming</label>
 				</div>
 			</div>
-			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 10px;">
-				<div>&nbsp;</div>
+			<div class="col-md-3 contact-left show-inte">
 				<div class="custom-control custom-checkbox">
 						<input type="checkbox" class="custom-control-input" id="triathlons" name="triathlons">
 						<label class="custom-control-label" for="triathlons">Triathlons</label>
@@ -481,7 +479,7 @@ function Captcha(){
 			<div class="clearfix"> </div> <br />
 			<div class="col-md-1"></div>
 
-			<div class="col-md-4 contact-left" style="color:#FFF;    margin-top: 10px;">
+			<div class="col-md-4 contact-left show-inte">
 				<label>Looking for Guidance on :</label>
 
 				<div class="custom-control custom-checkbox">
@@ -494,9 +492,8 @@ function Captcha(){
 						<label class="custom-control-label" for="tech">Tech & Gear</label>
 				</div>
 			</div>
-			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 15px;">
-				<div>&nbsp;</div>
-				<div class="custom-control custom-checkbox">
+			<div class="col-md-3 contact-left show-inte">
+				<div class="custom-control custom-checkbox show-inte">
 						<input type="checkbox" class="custom-control-input" id="nutrition" name="nutrition">
 						<label class="custom-control-label" for="nutrition">Nutrition & Diet</label>
 				</div>
@@ -506,9 +503,8 @@ function Captcha(){
 						<label class="custom-control-label" for="injury">Injury Prevention</label>
 				</div>
 			</div>
-			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 15px;">
-				<div>&nbsp;</div>
-				<div class="custom-control custom-checkbox">
+			<div class="col-md-3 contact-left show-inte">
+				<div class="custom-control custom-checkbox show-inte">
 						<input type="checkbox" class="custom-control-input" id="racing" name="racing">
 						<label class="custom-control-label" for="racing">Racing</label>
 				</div>

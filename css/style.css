@@ -1400,9 +1400,18 @@ ul.popular li a {
   font-size: 0.8em;
 }
 }
+
+.show-inte{
+    color:#FFF;
+    margin-top: 30px;
+}
+
 @media(max-width:768px){
 
-
+  .show-inte{
+      color:#FFF;
+      margin-top: 0px;
+  }
 
 span.menu{
 		display: block;
