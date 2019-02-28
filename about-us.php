@@ -302,6 +302,26 @@
 	 </div>
 </div>
 
+<div class="modal fade" id="Priyanka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	 <div class="modal-dialog">
+			 <div class="modal-content">
+					 <div class="modal-header" style="background-color: #f2f2f2;">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title modal-head-text"  id="myModalLabel">Priyanka Dalal - <span class="ab_sub_hed">Mentor on board</span></h4>
+					 </div>
+					 <div class="modal-body" style="text-align:justify;">
+						 <img src="image/Priyanka.png" alt="Ketan" style="    height: 185px; width: 170px;margin-top: 10px;border: 1px solid #660000;    margin-right: 20px;    float: left;">
+						 <p>Priyanka Dalal is India's former No. 1 speed skater. She is also a Certified Strength & Conditioning Specialist and Sports Performance Coach. She has a Bachelor's degree in Kinesiology, Master's degree in Exercise Science and is the founder of High 5 Sports Performance in Ahmedabad. It is a high-performance training facility that exists to inspire, educate and motivate athletes to reach their highest potential and lead healthy, balanced lives.</p>
+						 <p>Priyanka recently introduced semi-private training classes that cater to all individuals from the age of 6 to 60; sports person or businessman, professional athlete or recreational runner! </p>
+						 <p>It's a functional training class that is a blend of strength training, metabolic conditioning, Tabata & High-Intensity Interval Training - all done in a FUN engaging set up.</p>
+					 </div>
+					 <div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					 </div>
+			 </div>
+	 </div>
+</div>
+
 <div class="modal fade" id="DEVINDER" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	 <div class="modal-dialog">
 			 <div class="modal-content">
@@ -495,6 +515,15 @@
 								<h2 class="header_bn">KETAN PANDYA</h2>
 								<p class="ban_sub_hed">Dr. Pandya has always been a sprinter, and 100 meters was his pet event. He has also had a good hold on Handball<p> <br />
 								<a id="KETAN-bio" data-toggle="modal" data-target="#KETAN" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a><br /><br />
+								<div class="draw-line"></div>
+							</diV>
+							<div class="col-md-3">
+								<img src="image/Priyanka.png" alt="Priyanka" class="mentor-img-sec">
+							</div>
+							<div class="col-md-3">
+								<h2 class="header_bn">Priyanka Dalal</h2>
+								<p class="ban_sub_hed">Priyanka Dalal is India's former No. 1 speed skater. She is also a Certified Strength & Conditioning Specialist<p> <br />
+								<a id="Priyanka-bio" data-toggle="modal" data-target="#Priyanka" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a><br /><br />
 								<div class="draw-line"></div>
 							</diV>
 

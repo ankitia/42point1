@@ -242,14 +242,14 @@ span.menu {
   background: url(../image/42.1Banner_old.png)no-repeat;
   min-height: 315px;
   background-size: cover;
-  margin-top: 88px;
+  margin-top: -20px;
 }
 
 .mainbannerin {
   background: url(../image/42.1Banner.jpg)no-repeat;
   min-height: 315px;
   background-size: cover;
-  margin-top: 88px;
+  margin-top: -20px;
 
 }
 
@@ -1291,6 +1291,31 @@ ul.ftr-categ li a:hover{
 }*/
 }
 @media(max-width:1024px){
+
+
+  .navbar {
+    overflow: hidden;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
 .header-right {
   width: 26%;
 }
@@ -1408,6 +1433,29 @@ ul.popular li a {
 
 @media(max-width:768px){
 
+
+  .navbar {
+    overflow: hidden;
+    z-index: 10000;
+    position: relative;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
   .show-inte{
       color:#FFF;
       margin-top: 0px;
@@ -1431,7 +1479,7 @@ span.menu{
 		padding: 0;
 		margin:1.7em 0em 0em 0em;
 		z-index: 9999;
-		position: absolute;
+		position: fixed;
 		width: 100%;
 		left:0;
 }
@@ -1439,7 +1487,7 @@ span.menu{
 		display: block;
 		text-align: center;
 		background:#d24230;
-		margin: 0;
+		margin: 0; 
 	    width: 100%;
 		padding: 0em;
 }
@@ -1448,7 +1496,8 @@ span.menu{
 		padding: 0.6em 0;
 		color: #fff;
 		display: block;
-		border: none;
+    border:1px solid #FFF;
+    /*border: none;*/
         text-align: center;
         margin: 0em;
 }
@@ -3061,28 +3110,6 @@ font-size: 15px;
 }
 
 
-.navbar {
-  overflow: hidden;
-  z-index: 100;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
 .mg-rt-30{
   margin-right: 30px;
 }
