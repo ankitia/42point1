@@ -13,14 +13,119 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<meta name="keywords" content="" />
-		<link href="css/index-main.css" rel="stylesheet" type="text/css" media="all">
+		<style>
+		* {box-sizing: border-box;}
+
+		.mySlides {display: none;}
+		img {vertical-align: middle;}
+
+		/* Slideshow container */
+		.slideshow-container {
+		  max-width: 100%;
+		  position: relative;
+		  margin: auto;
+			max-height: 315px;
+		}
+
+		/* Caption text */
+		.text {
+			color: #f2f2f2;
+			 font-size: 15px;
+			 padding: 14px 7px;
+			 position: absolute;
+			 bottom: 23px;
+			 width: 185px;
+			 text-align: center;
+		}
+
+		/* Number text (1/3 etc) */
 
 
+		/* The dots/bullets/indicators */
+		.dot {
+		  height: 13px;
+		  width: 13px;
+		  margin: 0 2px;
+		  background-color: #bbb;
+		  border-radius: 50%;
+		  display: inline-block;
+		  transition: background-color 15s ease;
+		}
+
+	/*	.active {
+		  background-color: #717171;
+		}
+
+		/* Fading animation */
+		.fade {
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 25.0s;
+		  animation-name: fade;
+		  animation-duration: 25.0s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {opacity: 1.4}
+		  to {opacity: 2}
+		}
+
+		@keyframes fade {
+		  from {opacity: 1.4}
+		  to {opacity: 2}
+		}
+
+		.slider_im{
+			width:100%;
+			height: 550px;
+		}
+
+
+		.header_btn{
+			margin-top: 200px;
+		  height: 50px;font-size:15px;background-color:#333;
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 500px) {
+		  .text {font-size: 11px}
+			.slider_im{
+				width:100%;
+				height:200px;
+			}
+		}
+
+		/* On smaller screens, decrease text size */
+		@media only screen and (min-device-width: 1500px) and (max-device-width: 1024px) {
+			.header_btn{
+				margin-top: 250px;
+				height: 50px;font-size:15px;background-color:#333;
+			}
+		}
+
+		.mg-lt-10 {
+		  margin-left: 20px !important;
+		}
+		</style>
+
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet">
+-->
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/core/schema.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
 <!-- //end-smoth-scrolling -->
+
+<script src='../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -33,16 +138,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
 <!-- End Google Tag Manager -->
-
-
-
-<!--<script type="text/javascript">
-	$(document).ready(function(){
-	
-    $( "#dialog" ).dialog();
-  
-	});
-</script>-->
 <script type="text/javascript">
 $( '#subscribeButton' ).click(function() {
   fbq('track', 'Subscribe');
@@ -106,63 +201,11 @@ function Captcha(){
 
 
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "42.1",
-  "image": "http://www.42point1.com/image/logo-dark.png",
-  "@id": "",
-  "url": "http://www.42point1.com/",
-  "telephone": "+91 79 6611 8081",
-  "priceRange": "500",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "A – 601, Westgate, Near YMCA",
-    "addressLocality": "Ahmedabad",
-    "postalCode": "380015",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 23.003267,
-    "longitude": 72.50147089999996
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Saturday",
-    "opens": "09:00",
-    "closes": "15:00"
-  },{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Sunday",
-    "opens": "15:00",
-    "closes": "22:00"
-  }],
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "42.1",
-  "url": "http://www.42point1.com/",
-  "logo": "http://www.42point1.com/image/logo-dark.png",
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
- 
-
 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+	 rel = "stylesheet">
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <style>
 .ui-datepicker .ui-datepicker-header{
@@ -179,13 +222,41 @@ function Captcha(){
 <div class="mainbannerin">
 	<div class="container">
 		<div class="banner-inner-main">
-			<a class="btnout_red danger mg-bt-30 text-uppercase text-center" href="about-us.php">ABOUT 42.1</a>
+			<a class="btnout_red mg-rt-30  danger mg-bt-30 text-uppercase text-center" href="about-us.php">ABOUT 42.1</a>
 		</div>
 	</div>
 </div>
-<!--<div id="dialog" title="Basic dialog">
-  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+
+<!--banner start here
+<div class="slideshow-container">
+<div class="mySlides fade">
+	<img src="image/42.1Banner.jpg" class="slider_im" alt="42.1Banner">
+	<h3 class="text-uppercase">About 42.1</h3>
+</div>
+<div class="mySlides fade">
+	<img src="image/42.1Banner.jpg" class="slider_im" alt="42.1Banner">
+</div>
+
 </div>-->
+
+
+<!--
+<div style="text-align: center;position: relative; z-index: 155; margin-top: -40px; margin-bottom: 23px;">
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+-->
+
+<!--<div class="banner">
+	<div class="container">
+		<div class="banner-main">
+			<h2>Open House</h2>
+			<a class="btnout success btn-lg mg-bt-30 mg-tp-120 text-uppercase" href="event.php">Experience 42.1</a>
+		</div>
+	</div>
+</div>-->
+<!--banner end here-->
+<!---728x90--->
 
 <div class="modal fade" id="termscondition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	 <div class="modal-dialog">
@@ -245,11 +316,22 @@ function Captcha(){
 	 </div>
 </div>
 
+<!--<div class="top-header-about-text">
+	<div class="container">
+			<div class="col-md-12">
+					<h3 class="text-uppercase">About 42.1</h3>
+					<p class="mg-tp-20 huddle-btn">A niche community and space built for endurance sports enthusiasts like yourselves, 42.1 essentially comprises experts and amateurs, each pursuing some form of endurance sport.  </p>
+					<a class="btnout  red mg-bt-30 text-uppercase" href="huddle.php">Read More</a>
+
+			</div>
+	</div>
+</div>-->
+
 <div class="top-header-text">
 	<div class="container">
-			<div class="col-md-12 index-huddle-margin">
-					<h1 class="text-uppercase">Huddle</h1>
-					<p class="mg-tp-20 huddle-btn">Welcome to Huddle! Venture into the world of endurance sports with us. </p>
+			<div class="col-md-12">
+					<h3 class="text-uppercase">Huddle</h3>
+					<p class="mg-tp-20 huddle-btn">Welcome to Huddle! Venture into the world of everything endurance sports with us. </p>
 					<a class="btnout  red mg-bt-30 text-uppercase" href="huddle.php">Read More</a>
 
 			</div>
@@ -259,17 +341,23 @@ function Captcha(){
 <div class="top-meal-text">
 	<div class="container">
 			<div class="col-md-6">&nbsp;</div>
-			<div class="col-md-6 text-left meal-textalign-mobile">
-					<h1 class="text-uppercase">MEAL A MILE</h1>
+			<div class="col-md-6 text-left">
+					<h3 class="text-uppercase">MEAL A MILE</h3>
 						<p class="meal_mile_header txt_just">Open on weekends only, for now, Meal-a-Mile serves food that is sensitive to the needs of endurance enthusiasts or anyone looking to make their day a bit healthier and a lot brighter. </p> <br />
 						<a class="btnout meal-btn red mg-bt-30 text-uppercase" href="meal-a-mile.php">Read More</a>
 				 </div>
 			</div>
 	</div>
+
+
+
+
+
+
 	<div class="top-gearup-text">
 		<div class="container">
-				<div class="col-md-6 gear_text text-left gear-textalign-mobile">
-					<h1 class="text-uppercase">Gear up</h1>
+				<div class="col-md-6 gear_text text-left">
+					<h3 class="text-uppercase">Gear up</h3>
 					<p class="txt_just">Gear Up is an exclusive range of curated gear designed for the 42.1 community members to help them find the right gear at the best price.</p><br />
 					<a class="btnout red mg-bt-30 text-uppercase" href="gear-up.php">Read More</a>
 				</div>
@@ -279,8 +367,8 @@ function Captcha(){
 		<div class="top-whatsup-text">
 			<div class="container">
 					<div class="col-md-6">&nbsp;</div>
-					<div class="col-md-6 text-left whatsup-textalign-mobile">
-							<h1 class="text-uppercase txt_just">What's up?</h1>
+					<div class="col-md-6 text-left">
+							<h3 class="text-uppercase txt_just">What's up?</h3>
 		  			 		<p>Bookmark this page to search and register online </p>
 								<p>for upcoming races and team sports events.</p> <br />
 								<a class="btnout whatsup_btn red mg-bt-30 text-uppercase" href="whats-up.php">Read More</a>
@@ -294,7 +382,7 @@ function Captcha(){
 				<div class="container">
 					  <div class="col-md-1">&nbsp;</div>
 							<div class="col-md-10 text-center">
-									<h1 class="text-uppercase">Adopt an Athlete</h1>
+									<h3 class="text-uppercase">Adopt an Athlete</h3>
 									<p style="margin-right: 4%;" >Adopt an Athlete is an iA Foundation initiative designed to give people access to the right resources to hone their skills in a sport of their choice. Sports like athletics, cricket, football, kabaddi, etc. are included in Adopt an Athlete program.42.1 looks to mentor budding athletes and help them train better by providing them with the right resources.</p>
 									<br />
 									<a class="btnout_wh danger mg-bt-30 mg-tp-10 text-uppercase" href="adopt.php">Read More</a>
@@ -309,7 +397,7 @@ function Captcha(){
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h1 class="text-uppercase">Membership Form</h1>
+				<h3 class="text-uppercase">Membership Form</h3>
 				<p>Become a member and get an exclusive access to the latest happenings in the world of endurance sports, wholesome foods and sports gear. To know more click on <a href="#" data-toggle="modal" data-target="#memberbenifit"> Member Benefits</a>.</p>
 			</div>
 		<form action="send.php" id="myForm" onsubmit="return formSubmit();" method="post">
@@ -334,7 +422,12 @@ function Captcha(){
 				<input type="text" placeholder="Mobile Number*"   name="mobilenumber" required="">
 
 
-			
+				<!--<div class='input-group date' id='datetimepicker1'>
+          <input type='text' class="form-control" name="bdate" />
+          <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+        </div> -->
 				<input type="text" id="datepicker-12" placeholder="Date of Birth* (DD/MM/YYYY)"  name="age" required="">
 			</div>
 
@@ -353,6 +446,8 @@ function Captcha(){
 			    <input type="checkbox" class="custom-control-input" id="longDist" name="longDist">
 			    <label class="custom-control-label" for="longDist">Long Distance Running</label>
 			</div>
+
+			<!--<input type="text" name="other" placeholder="other"  />-->
 
 			</div>
 			<div class="col-md-3 contact-left show-inte">
@@ -437,7 +532,7 @@ function Captcha(){
 			<div class="clearfix"> </div><br />
 						<div class="col-md-2">&nbsp;</div>
 						<div class="col-md-3 contact-left">
-							<p id="mainCaptcha" class="captch">
+							<p  id="mainCaptcha" class="captch" />
 						</div>
 						<div class="col-md-2 contact-left setbtn">
 							<input type="button" id="refresh" class="btnout white text-uppercase " value="Refresh" onclick="Captcha();" style="    margin-left: 15px;" />
@@ -460,7 +555,25 @@ function Captcha(){
 <!--footer end here-->
 
 <script>
+var slideIndex = 0;
+//showSlides();
 
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 
 $("#otherGuidance").hide();
 $("#otherDetails").hide();

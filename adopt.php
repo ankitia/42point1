@@ -61,6 +61,59 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	color: black;
 }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "42.1",
+  "image": "http://www.42point1.com/image/logo-dark.png",
+  "@id": "",
+  "url": "http://www.42point1.com/",
+  "telephone": "+91 79 6611 8081",
+  "priceRange": "500",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "A – 601, Westgate, Near YMCA",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380015",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.003267,
+    "longitude": 72.50147089999996
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "15:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "15:00",
+    "closes": "22:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "42.1",
+  "url": "http://www.42point1.com/",
+  "logo": "http://www.42point1.com/image/logo-dark.png",
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -72,20 +125,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>ADOPT AN ATHLETE</h2>
+			<h1>ADOPT AN ATHLETE</h1>
 		</div>
 	</div>
 </div>
 <!--banner end here-->
 
 <!--single start here-->
-		 <div class="single">
+		 <div class="single" style="padding-bottom:4rem;">
 			<div class="container">
 			<div class="col-md-12 ">
 				<div class=" single-grid">
 
 				<!--	<ul class="breadcrumb">
-					  <li><a href="http://www.42point1.com/">Home</a></li>
+					  <li><a href="<?php echo $server_name ?>">Home</a></li>
 					  <li><a href="meal-a-mile.php">MEAL-A-MILE</a></li>
 					  <li  class="text-uppercase">WORDS BY Greenobazaar</li>
 					</ul> -->
@@ -291,6 +344,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!--//single end here-->
 <!--footer start here-->
+	<div class="ngt-margin-adopt">
 		<?php include "include/footer.php" ?>
+	</div>
 <!--footer end here-->
 </html>

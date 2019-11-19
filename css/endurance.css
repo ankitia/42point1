@@ -1,0 +1,161 @@
+a:focus {
+	text-decoration: none;
+}
+.single-grid-endurance
+{
+	margin: 0em 0 3em;
+}
+.panel-heading a:hover{
+	color:#660000;
+}
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: #660000;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+h4 a {
+    display:inline-block; 
+    min-width:100%
+}
+.single-grid-endurance p{
+	
+    font-size: 1em;
+    color: #333;
+    line-height: 1.9em;
+}
+.building-endurance-hide{
+	display: none;
+}
+.building-endurance-show{
+	display: block;
+}
+.Endurance-card-view{
+    background: #ddd;
+    width: 240px;
+    height: auto;
+    border: 1px solid #660000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 3px #888888;
+	margin-bottom: 2rem;
+	margin-left:1rem;
+	margin-right:1rem;
+}
+.Endurance-card-img{
+	border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 238px;
+    height: 190px
+}
+.endurance-card-body{
+	padding: 0 25px;
+    padding-top: 1rem;
+}
+.endurance-bannerin {
+	width:100%;
+	height: 372px;
+	background-image: url('../image/building-endurance-banner.jpg');
+	background-size: cover;
+	margin-top: -20px;
+  }
+  .border-1{
+	border:1px solid #333333;
+  }
+  .border-2{
+	border:1px solid #333333;
+	border-left:none;
+	
+  }
+  .border-3{
+	border:1px solid #333333;
+	border-top:none;
+	
+  }
+  .border-4{
+	border:1px solid #333333;
+	border-left:none;
+	border-top:none;
+	
+	}
+	
+	@media(max-width:1024px){
+		.endurance-bannerin 
+		{
+			height: 290px;
+			margin-top: 89px;
+		}
+
+	}
+	
+  @media(max-width:1000px)
+  {
+		.border-1
+		{
+			border-left:1px solid #333333;
+		} 
+		.border-2
+		{
+			border-left:1px solid #333333;
+			border-top:none;
+		} 
+		.border-4{
+			border-left:1px solid #333333;
+		} 
+	}
+	@media(max-width:768px)
+	{
+		.endurance-bannerin
+		{
+			background-image: url('../image/building-endurance-banner-md.jpg');
+			height:372px;
+			margin-top:85px;
+		}
+		
+	}
+	@media(max-width:568px)
+	{
+		.Endurance-email{
+			text-align:center;
+			margin-bottom:4rem;
+		}
+	}
+	@media(max-width:414px)
+	{
+		.endurance-bannerin
+		{
+			background-image: url('../image/building-endurance-banner-sm.jpg');
+			/*height:315px;*/
+			margin-top:0px;
+		}
+	}
+/*.coming-soon
+{
+	width: 316px;
+	height: 237px;
+	border-top-left-radius:10px;
+  	border-top-right-radius:10px;
+	transition: .5s ease;
+	opacity: 1;
+	position: relative;
+	top: 36.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.coming-soon:hover{
+	opacity: 0.7;
+}
+.coming-soon-title{
+	color: black;
+	font-size: 32px;
+}
+.coming-soon:hover{
+	opacity: 1;
+}
+.hover-show:hover{
+	opacity:0.3;
+}*/

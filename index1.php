@@ -101,8 +101,14 @@
 			}
 		}
 
-
+		.mg-lt-10 {
+		  margin-left: 20px !important;
+		}
 		</style>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.css" rel="stylesheet">
+
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -294,44 +300,142 @@ function Captcha(){
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h3 class="text-uppercase">Subscribe Now</h3>
-				<p>Subscribe Here to receive our periodical newsletters, updates, tailormade tips and advices. Our subscribers would have a special access to events, curated content and discounts on meals and select merchandise.</p>
+				<h3 class="text-uppercase">Membership Form</h3>
 			</div>
 		<form action="send.php" id="myForm" onsubmit="return formSubmit();" method="post" >
 		  <div class="contact-bottom">
 			<div class="col-md-1">&nbsp;</div>
-			<div class="col-md-5 contact-left">
+			<div class="col-md-10 contact-left">
 				<input type="text" placeholder="Name*" class="text-uppercase" name="name" required="">
-
-				<input type="text" placeholder="Mobile Number*" class="text-uppercase"  name="mobilenumber" required="">
 			</div>
-			<div class="col-md-5 contact-left">
-				<input type="email" placeholder="Email*" class="text-uppercase"   name="email" required="">
-
-				<input type="text" placeholder="Address"  class="text-uppercase"  name="address" >
-			</div>
-
 
 			<div class="clearfix"> </div>
 			<div class="col-md-1"></div>
-			<div class="col-md-10 contact-right text-center">
-				<textarea placeholder="Comments" class="text-uppercase"  name="comment" ></textarea>
+
+			<div class="col-md-5 contact-left">
+				<input type="email" placeholder="Email*" class="text-uppercase"   name="email" required="">
+
+				<input type="text" placeholder="Profession*" class="text-uppercase"  name="profession" required="">
+			</div>
+
+
+			<div class="col-md-5 contact-left">
+				<input type="text" placeholder="Mobile Number*" class="text-uppercase"  name="mobilenumber" required="">
+
+
+				<!--<div class='input-group date' id='datetimepicker1'>
+          <input type='text' class="form-control" name="bdate" />
+          <span class="input-group-addon">
+              <span class="glyphicon glyphicon-calendar"></span>
+              </span>
+        </div> -->
+				<input type="date" placeholder="Age*" class="text-uppercase" name="age" required="">
+			</div>
+
+			<div class="clearfix"> </div>
+			<div class="col-md-1"></div>
+
+			<div class="col-md-4 contact-left" style="color:#FFF;">
+			<label>Interests :</label>
+			<!-- Default unchecked -->
+			<div class="custom-control custom-checkbox">
+			    <input type="checkbox" class="custom-control-input" id="running" name="running">
+			    <label class="custom-control-label" for="running">Running</label>
+			</div>
+
+			<div class="custom-control custom-checkbox">
+			    <input type="checkbox" class="custom-control-input" id="longDist" name="longDist">
+			    <label class="custom-control-label" for="longDist">Long Distance Running</label>
+			</div>
+
+			<!--<input type="text" name="other" placeholder="other"  />-->
+
+			</div>
+			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 10px;">
+				<div>&nbsp;</div>
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="cycling" name="cycling">
+						<label class="custom-control-label" for="cycling">Cycling</label>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="swimming" name="swimming">
+						<label class="custom-control-label" for="swimming">Swimming</label>
+				</div>
+			</div>
+			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 10px;">
+				<div>&nbsp;</div>
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="triathlons" name="triathlons">
+						<label class="custom-control-label" for="triathlons">Triathlons</label>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" onclick="checkStatus(this,'otherDetails')" id="other">
+						<label class="custom-control-label" for="other">Others</label>
+						<input type="text"  name="otherDetails" placeholder="Other Interests" id="otherDetails" >
+				</div>
+			</div>
+
+
+
+			<div class="clearfix"> </div> <br />
+			<div class="col-md-1"></div>
+
+			<div class="col-md-4 contact-left" style="color:#FFF;    margin-top: 10px;">
+				<label>Looking for Guidance on:</label>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="training" name="training">
+						<label class="custom-control-label" for="training">Training & Workouts</label>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="tech" name="tech">
+						<label class="custom-control-label" for="tech">Tech & Gear</label>
+				</div>
+			</div>
+			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 15px;">
+				<div>&nbsp;</div>
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="nutrition" name="nutrition">
+						<label class="custom-control-label" for="nutrition">Nutrition & Diet</label>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="injury" name="injury">
+						<label class="custom-control-label" for="injury">Injury Prevention</label>
+				</div>
+			</div>
+			<div class="col-md-3 contact-left" style="color:#FFF;    margin-top: 15px;">
+				<div>&nbsp;</div>
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="racing" name="racing">
+						<label class="custom-control-label" for="racing">Racing</label>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox"  onclick="checkStatus(this,'otherGuidance')"  class="custom-control-input" id="otherGuid" name="otherGuid">
+						<label class="custom-control-label" for="otherGuid">Others</label>
+						<input type="text" name="otherGuidance" id="otherGuidance" placeholder="other Guidance"  />
+				</div>
+
 
 			</div>
 
-			<div class="clearfix"> </div><br />
-			<div class="col-md-2">&nbsp;</div>
-			<div class="col-md-3 contact-left">
-				<p  id="mainCaptcha" class="captch" />
+
+			<div class="clearfix"> </div> <br />
+			<div class="col-md-1"></div>
+			<div class="col-md-10 contact-right text-center" style="color:#FFF;">
+				<div class="custom-control custom-checkbox">
+						<input type="checkbox" class="custom-control-input" id="terms">
+						<label class="custom-control-label" for="terms">I agree to the Terms & Conditions </label>
+				</div>
 			</div>
-			<div class="col-md-2 contact-left">
-				<input type="button" id="refresh" class="btnout white text-uppercase" value="Refresh" onclick="Captcha();" style="    margin-left: 15px;" />
-			</div>
-			<div class="col-md-3 contact-left">
-            <input type="text" id="txtInput" class="text-uppercase" placeholder="Enter captcha"  required />
-			</div>
+
+
 			<div class="col-md-12 contact-right text-center">
-				<input type="submit" id="subscribeButton"   class="btnout white mg-tp-20 text-uppercase" value="Subscribe">
+				<input type="submit" id="subscribeButton"   class="btnout white mg-tp-20 text-uppercase" value="Submit">
 			</div>
 		   </div>
 		 </form>
@@ -363,6 +467,23 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-</script>
 
+$("#otherGuidance").hide();
+$("#otherDetails").hide();
+
+
+function checkStatus(status,show){
+		if(status.checked){
+			$("#"+show).show();
+		}else{
+			$("#"+show).hide();
+		}
+}
+
+</script>
+<script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
 </html>

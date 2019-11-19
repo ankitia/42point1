@@ -49,8 +49,8 @@
 		  max-width: 50%;
 		  position: relative;
 		  margin: auto;
-			float: left;
-			margin-right: 25px;
+		  float: left;
+		  margin-right: 25px;
 		}
 
 		/* Caption text */
@@ -116,8 +116,17 @@
 		  .text {font-size: 11px}
 			.slider_im{
 				width:100%;
-				height:200px;
+				height:300px;
+				border: 1px solid #660000;
 			}
+
+			.slideshow-container {
+		    max-width: 100%;
+		    position: relative;
+		    margin: auto;
+		    float: left;
+		    margin-bottom:  15px;
+		  }
 		}
 
 		/* On smaller screens, decrease text size */
@@ -293,6 +302,26 @@
 	 </div>
 </div>
 
+<div class="modal fade" id="Priyanka" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	 <div class="modal-dialog">
+			 <div class="modal-content">
+					 <div class="modal-header" style="background-color: #f2f2f2;">
+							 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title modal-head-text"  id="myModalLabel">Priyanka Dalal - <span class="ab_sub_hed">Mentor on board</span></h4>
+					 </div>
+					 <div class="modal-body" style="text-align:justify;">
+						 <img src="image/Priyanka.png" alt="Ketan" style="    height: 185px; width: 170px;margin-top: 10px;border: 1px solid #660000;    margin-right: 20px;    float: left;">
+						 <p>Priyanka Dalal is India's former No. 1 speed skater. She is also a Certified Strength & Conditioning Specialist and Sports Performance Coach. She has a Bachelor's degree in Kinesiology, Master's degree in Exercise Science and is the founder of High 5 Sports Performance in Ahmedabad. It is a high-performance training facility that exists to inspire, educate and motivate athletes to reach their highest potential and lead healthy, balanced lives.</p>
+						 <p>Priyanka recently introduced semi-private training classes that cater to all individuals from the age of 6 to 60; sports person or businessman, professional athlete or recreational runner! </p>
+						 <p>It's a functional training class that is a blend of strength training, metabolic conditioning, Tabata & High-Intensity Interval Training - all done in a FUN engaging set up.</p>
+					 </div>
+					 <div class="modal-footer">
+							 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					 </div>
+			 </div>
+	 </div>
+</div>
+
 <div class="modal fade" id="DEVINDER" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	 <div class="modal-dialog">
 			 <div class="modal-content">
@@ -324,12 +353,12 @@
 				<div class="col-md-12 about-left text-justify">
 					<!--<h4 class="text-uppercase">ABOUT 42.1</h4>
 					<h5>Officia deserunt mollit anim id est laborum</h5>-->
-<p>42.1 is a unique community and space built for endurance sports enthusiasts like yourselves.
-	The community comprises of mentors, contributing partners, and members, each pursuing some
-	form of endurance sport. We look to keep you engaged through: high-quality content and workshops,
-	<strong>Huddle</strong>; guidance on the right sports paraphernalia,
-	<strong>Gear Up</strong>; and wholesome food,
-	<strong>Meal-a-Mile</strong>.</p>
+
+
+<p>Say you’re a foodie. Where would you hang out with like-minded people? Restaurants, food events, flea markets, food meet-ups? – There are so many places, and people. Say you’re a music aficionado. Where would you hang out then? Concerts? Random gigs? Music festivals? If nothing, you’d always have the comfort of your room, listen to your favorite artist on a nifty digital player. But, if you’re a fitness enthusiast, more specifically an Endurance Sports enthusiast, what’d be your go-to place? Gyms? Running or cycling groups? Not only, they offer limited engagement but are restricted and somewhat mundane. </p>
+
+<p>What if you could be part of a community that gives you access to; an expert's pat to pick a new endurance sport and advice on enhancing your performance? A place that serves excellent food thoughtfully designed by fellow endurance athletes; awesome gear for your next run or ride, again curated by experts; or just a cozy space, where you could sit back with interesting folks, including some of the best in the business, right here in Ahmedabad. 42.1 is just that, and a little more! </p>
+<p>A niche community and space built for endurance sports enthusiasts like yourselves, 42.1 (derived from the marathon distance of 42.195 kilometers) essentially comprises experts and amateurs, each pursuing some form of endurance sport. We look to keep you engaged through: high-quality content, indoor and outdoor workshops, programs, events and meet-ups, Huddle; guidance and access to the right sports paraphernalia, Gear Up; wholesome food and food products, Meal-a-Mile; and some of our impactful community initiatives.</p>
 
 
 
@@ -354,12 +383,18 @@
 							 </div>
 
 
+							 <p>With <a href="huddle.php" target="_blank"> <strong>Huddle</strong></a>, venture into the world of everything endurance sports. Whether you are a beginner or a seasoned athlete looking to improve your performance, we promise a resourceful community with abundant knowledge and know-how. We keep you engaged through our two-pronged approach of sharing expert content online and conducting impactful workshops, training sessions, mentor programs, meetups and community initiatives, such as the Adopt an Athlete program. </p>
 
-							 <p>With <a href="huddle.php" target="_blank"> <strong>Huddle</strong></a>, venture into the world of everything endurance sports. Whether you are a beginner or a seasoned athlete looking to improve your record, we promise to be the bridge to bring you all into an impactful endurance athletes’ community. We keep you engaged through our two-pronged approach of sharing regular online content and conducting impactful workshops and meet ups related to all things endurance sports. </p>
-							 <p><a href="gear-up.php" target="_blank"><strong>Gear Up</strong></a> is an exclusive offline store designed for the 42.1 community members to help them find the right gear at the best price. Gear Up looks to offer an extensive range of sports merchandise and equipment with the aim of serving and inspiring athletes and outdoor enthusiasts to achieve their personal best.</p>
-							 <p>At <strong>Meal-a-Mile</strong>, we serve food and products that cater to the needs of endurance sports enthusiasts or anyone looking out for healthy food alternatives. The fresher the ingredients, the more delicious and healthier your meal will be! Hence, we ensure fresh and healthy ingredients are the mainstay of the dishes that we serve as well as the range of premium products we stock.</p>
 
-							 <p>Read what our Founder, Amit Gupta, has to say, if you are wondering <a target="_blank" href="why-42.1.php"> Why 42.1?</a> </p>
+							 <p><a href="gear-up.php" target="_blank"><strong>Gear Up</strong></a> will be an exclusive space to showcase a curated range of sports merchandise and apparel with the aim of serving and inspiring athletes to achieve their personal best. What’s more, most of the gear is made in India and best suited to sub-continent conditions. </p>
+
+							 <p>We all know how important food is for anyone pursuing any form of intense activity. At <a href="meal-a-mile.php" target="_blank"><strong>Meal-a-Mile</strong></a>, we understand that and guide you through everything nutrition, be it what to eat and when; tailored dietary programs by our in-house experts; or some of the best wholesome snacks for purchase. We also have our café that serves nourishing food to anyone looking for a nice meal. The fresher the ingredients, the more delicious and healthier your meal will be! Hence, we ensure fresh and healthy ingredients are the mainstay of the dishes that we serve as well as the range of premium products we stock.</p>
+
+							 <p>Read what our Founder, Amit Gupta, has to say if you are wondering <a href="why-42.1.php" target="_blank"><strong> Why 42.1?</strong></a>. One more thing, starting mid-February 2019, the 42.1 community space and cafe will be open weekends only at the address below. However, our mentors, team and many other resources and products are accessible throughout the week. Contact us for more information. </p>
+
+
+
+							 <p>The 42.1 Community Space (in association with infoAnalytica), A – 601, Westgate, Near YMCA, SG Highway, Ahmedabad. </p>
 
 <br /><br />
 
@@ -367,7 +402,7 @@
 				</div>
 
 				<div class="col-md-12">
-						<h4 class="text-center team-head">Team 42.1</h4>
+						<h4 class="text-center team-head">Team</h4>
 				</div>
 
 				 <div class="test-grid-img-main">
@@ -407,7 +442,7 @@
 
 
 				<div class="col-md-12">
-						<h4 class="text-center team-head">42.1 Mentors</h4> </br />
+						<h4 class="text-center team-head">Mentors</h4> </br />
 				</div>
 
 				<div class="test-grid-img-main" >
@@ -423,32 +458,44 @@
 							</diV> -->
 							<div class="clearfix"> </div>
 
-							<div class="col-md-3">
+							<div class="col-md-3 setgd">
 								<img src="image/Ingit-bio.png" alt="Ingit" class="mentor-img" >
 							</div>
 							<div class="col-md-3">
 								<h2 class="header_bn">INGIT ANAND</h2>
 								<p class="ban_sub_hed">The fastest Ironman in the state of Gujarat, our Chief Mentor, Ingit Anand is a four-time Ironman Finisher.</p> <br />
 								<a  id="INGIT-bio" data-toggle="modal" data-target="#INGIT"  class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a>
+								<div class="draw-line"></div>
 							</diV>
 							<div class="col-md-3">
+								<img  src="image/Yagnesh-bio.png" alt="YAGNESH AHIR" class="mentor-img-sec">
+							</div>
+							<div class="col-md-3">
+								<h2 class="header_bn">YAGNESH AHIR</h2>
+								<p class="ban_sub_hed">Rated as the top cyclist in the city and, being a professional cyclist himself, Yagnesh also coaches at Yoska<p> <br />
+								<a id="YAGNESH-bio" data-toggle="modal" data-target="#YAGNESH" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a>
+								<div class="draw-line"></div>
+							</diV>
+
+						<!--	<div class="col-md-3">
 								<img src="image/Devendra-bio.png" alt="Devendra" class="mentor-img-sec">
 							</div>
 							<div class="col-md-3">
 								<h2 class="header_bn text-uppercase">Devinder Singh</h2>
 								<p class="ban_sub_hed">Devinder currently works as a Tennis Specialist at the Altevol Alexander Waske Tennis-University in Ahmedabad<p> <br />
 								<a id="Devendra-bio" data-toggle="modal" data-target="#DEVINDER"  class="btnout red text-uppercase mg-tp-20" href="#">Read More</a>
+								<div class="draw-line"></div>
 							</diV>
-
+-->
 							<div class="clearfix"> </div>
 							<div class="col-md-3">
-								<div class="draw-line"></div>
 								<h2 class="header_bn">ANAND MARAR</h2>
 								<p class="ban_sub_hed">Anand is a father of a naughty monkey, 2-time Ironman, Super Randonneur, Marathoner and a Fitness Consultant.<p><br />
 								<a id="ANAND-bio" data-toggle="modal" data-target="#ANAND"  class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a>
 							</diV>
 							<div class="col-md-3">
 								<img src="image/Anand-bio.png" alt="Anand" class="mentor-img-third">
+								<div class="draw-line"></div>
 							</div>
 							<div class="col-md-3">
 								<h2 class="header_bn">HEMAL SHAH</h2>
@@ -457,24 +504,27 @@
 							</diV>
 							<div class="col-md-3">
 								<img src="image/Hemal-bio.png" alt="HEMAL" class="mentor-img-four">
+								<div class="draw-line"></div>
 							</div>
 							<div class="clearfix"> </div>
-							<div class="draw-line"></div>
+
 							<div class="col-md-3">
-								<img  src="image/Yagnesh-bio.png" alt="YAGNESH AHIR" class="mentor-imgs">
-							</div>
-							<div class="col-md-3">
-								<h2 class="header_bn">YAGNESH AHIR</h2>
-								<p class="ban_sub_hed">Rated as the top cyclist in the city and, being a professional cyclist himself, Yagnesh also coaches at Yoska<p> <br />
-								<a id="YAGNESH-bio" data-toggle="modal" data-target="#YAGNESH" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a>
-							</diV>
-							<div class="col-md-3">
-								<img src="image/Ketan-bio.png" alt="Ketan pandya" class="mentor-img-sec">
+								<img src="image/Ketan-bio.png" alt="Ketan pandya" class="mentor-imgs">
 							</div>
 							<div class="col-md-3">
 								<h2 class="header_bn">KETAN PANDYA</h2>
 								<p class="ban_sub_hed">Dr. Pandya has always been a sprinter, and 100 meters was his pet event. He has also had a good hold on Handball<p> <br />
 								<a id="KETAN-bio" data-toggle="modal" data-target="#KETAN" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a><br /><br />
+								<div class="draw-line"></div>
+							</diV>
+							<div class="col-md-3">
+								<img src="image/Priyanka.png" alt="Priyanka" class="mentor-img-sec">
+							</div>
+							<div class="col-md-3">
+								<h2 class="header_bn">Priyanka Dalal</h2>
+								<p class="ban_sub_hed">Priyanka Dalal is India's former No. 1 speed skater. She is also a Certified Strength & Conditioning Specialist<p> <br />
+								<a id="Priyanka-bio" data-toggle="modal" data-target="#Priyanka" class="btnout red text-uppercase mg-tp-20"  href="#">Read More</a><br /><br />
+								<div class="draw-line"></div>
 							</diV>
 
 
@@ -539,7 +589,7 @@
 				<br /><br /><br /><br /><br />
 				<div class="col-md-3"></div>
 				<div class="col-md-7">
-						<h4 class="text-center team-head">42.1 Contributing Partners</h4> </br />
+						<h4 class="text-center team-head">Contributing Partners</h4> </br />
 				</div>
 
 				<div class="col-md-3"></div>
@@ -558,51 +608,63 @@
 
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner"  style="color:#660000;">
-				      <div class="item active">
-								<span style="width:100px;float:left;">
+				      <div class="item active setimage" >
+								<span class="setimg">
 									<img  src="image/Contributing-Partners/CP-Siddharth-Baide.png" alt="Siddharth-Baide" style="height:90px;">
 								</span>
-								<span style="width:400px;float:left;margin-top:20px;font-size:20px;margin-left:10px;">
-										 <strong>Siddharth Baide</strong> <br /> <p style="margin-top: -6px;"><font size="3"> Contributing Partner</font></p>
+								<span class="title_head">
+										 <strong>Siddharth Baide</strong> <br /> <p style="margin-top: -6px;"><span class="ft-si"> Contributing Partner</span></p>
 								</span>
-								<span style="width:100%;float:left;margin-top:20px;">
-									Having over 10 years of experience in fitness training and yoga, Siddharth Baide can answer all your questions related to the craft. He has the ability to help you train and coach for any athletic sport or event. Currently Siddharth runs his own Crossfit Training Center and Yoga Studio.
+								<span class="title_h_b">
+									Having over 10 years of experience in fitness training and yoga, Siddharth Baide can answer all your questions related to the craft. He has the ability to help you train and coach for any athletic sport or event. Currently Siddharth runs his own Crossfit Training Center and Yoga Studio. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 								</span>
 				      </div>
 
-				      <div class="item">
-								<span style="width:100px;float:left;">
+				      <div class="item setimage">
+								<span class="setimg">
 									<img src="image/Contributing-Partners/CP-Raja-Marut.png" alt="CP-Raja-Marut" style="height:90px;">
 								</span>
-								<span style="width:400px;float:left;margin-top:20px;font-size:20px;margin-left:10px;">
-										 <strong>Raja Marut</strong> <br /> <p style="margin-top: -6px;"><font size="3"> Contributing Partner</font></p>
+								<span class="title_head">
+										 <strong>Raja Marut</strong> <br /> <p style="margin-top: -6px;"><span class="ft-si"> Contributing Partner</span></p>
 								</span>
-								<span style="width:100%;float:left;margin-top:20px;">
+								<span class="title_h_b">
 									Raja Marut is an Ex Telecom Professional who is now a Barefoot Runner popularly known as ‘Barefoot Raja’. Raja wishes to build a strong running community with the vision of getting India to run! He will be contributing to 42.1 in the form of helping interested barefoot freshers train for Half & Full Marathons as well as give those in need tips on weight loss!
 								</span>
 				      </div>
 
-				      <div class="item">
-								<span style="width:100px;float:left;">
+				      <div class="item setimage">
+								<span class="setimg">
 									<img class="d-block w-100" src="image/Contributing-Partners/Gopi.png" alt="Gopinath Dhandapani" style="height:90px;">
 								</span>
-								<span style="width:400px;float:left;margin-top:20px;font-size:20px;margin-left:10px;">
-										 <strong>Gopinath Dhandapani</strong>  <br /> <p style="margin-top: -6px;"><font size="3"> Contributing Partner</font></p>
+								<span class="title_head">
+										 <strong>Gopinath Dhandapani</strong>  <br /> <p style="margin-top: -6px;"><span class="ft-si"> Contributing Partner</span></p>
 								</span>
-								<span style="width:100%;float:left;margin-top:20px;">
+								<span class="title_h_b">
 									Apart from being an athlete having run multiple Marathons and Ultra Marathons, Gopinath has helped train several beginners. He is more lovingly referred to as Gopi by those he has inspired and guided to realize their goals, and run 10 km, 21km and even reach 42.2km marathon distance by providing effective training plans and strategies.
 								</span>
 				      </div>
 
-							<div class="item">
-								<span style="width:100px;float:left;">
+							<div class="item setimage">
+								<span class="setimg">
 									<img class="d-block w-100" src="image/Contributing-Partners/Anupriya-Marar.png" alt="Anupriya Marar" style="height:90px;">
 								</span>
-								<span style="width:400px;float:left;margin-top:20px;font-size:20px;margin-left:10px;">
-										 <strong>Anupriya Marar</strong>  <br /> <p style="margin-top: -6px;"><font size="3"> Contributing Partner</font></p>
+								<span class="title_head">
+										 <strong>Anupriya Marar</strong>  <br /> <p style="margin-top: -6px;"><span class="ft-si">Contributing Partner</span></p>
 								</span>
-								<span style="width:100%;float:left;margin-top:20px;">
+								<span class="title_h_b">
 									Besides being an athlete, Anupriya is a menstrual activist working with varied initiatives to help save the planet from non-degradable waste. Understanding the wholistic perspective has now become second nature to her and when it comes to training as a female, she has a lot of insights including how to manage training during menstruation.
+								</span>
+							</div>
+
+							<div class="item setimage">
+								<span class="setimg">
+									<img class="d-block w-100" src="image/Contributing-Partners/CP-Kavita-Shah.png" alt="Kavita Shah" style="height:90px;">
+								</span>
+								<span class="title_head">
+										 <strong>Kavita Shah</strong>  <br /> <p style="margin-top: -6px;"><span class="ft-si">Contributing Partner</span></p>
+								</span>
+								<span class="title_h_b">
+									Kavita Shah is a certified Aqua fitness instructor, national level swimmer and an avid runner. Her passion made her win the first ever sprint Triatlon held in Gujarat. Triathlon training made her realize that fitness is more about one's mental strength than physical form. She encourages good health and fitness through the medium of endurance sport.
 								</span>
 							</div>
 

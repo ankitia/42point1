@@ -11,98 +11,9 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
 		<!-- Custom Theme files -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="keywords" content="" />
-		<style>
-		* {box-sizing: border-box;}
 
-		.mySlides {display: none;}
-		img {vertical-align: middle;}
-
-		/* Slideshow container */
-		.slideshow-container {
-		  max-width: 100%;
-		  position: relative;
-		  margin: auto;
-		}
-
-		/* Caption text */
-		.text {
-			color: #f2f2f2;
-			 font-size: 15px;
-			 padding: 14px 7px;
-			 position: absolute;
-			 bottom: 23px;
-			 width: 185px;
-			 text-align: center;
-		}
-
-		/* Number text (1/3 etc) */
-
-
-		/* The dots/bullets/indicators */
-		.dot {
-		  height: 13px;
-		  width: 13px;
-		  margin: 0 2px;
-		  background-color: #bbb;
-		  border-radius: 50%;
-		  display: inline-block;
-		  transition: background-color 15s ease;
-		}
-
-	/*	.active {
-		  background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-		  -webkit-animation-name: fade;
-		  -webkit-animation-duration: 25.0s;
-		  animation-name: fade;
-		  animation-duration: 25.0s;
-		}
-
-		@-webkit-keyframes fade {
-		  from {opacity: 1.4}
-		  to {opacity: 2}
-		}
-
-		@keyframes fade {
-		  from {opacity: 1.4}
-		  to {opacity: 2}
-		}
-
-		.slider_im{
-			width:100%;
-			height: 550px;
-		}
-
-
-		.header_btn{
-			margin-top: 200px;
-		  height: 50px;font-size:15px;background-color:#333;
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 500px) {
-		  .text {font-size: 11px}
-			.slider_im{
-				width:100%;
-				height:200px;
-			}
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (min-device-width: 1500px) and (max-device-width: 1024px) {
-			.header_btn{
-				margin-top: 250px;
-				height: 50px;font-size:15px;background-color:#333;
-			}
-		}
-
-
-		</style>
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -190,28 +101,7 @@ function Captcha(){
 <?php include "include/header.php" ?>
 
 <!--banner start here-->
-<div class="slideshow-container">
-
-	<div class="mySlides fade">
-		<img src="image/Tri-For-Fitness.jpg" class="slider_im" alt="Tri-For-Fitness">
-		<a href="https://www.facebook.com/events/387317428503810/"  target="_blank" class="text btnout_wh header_btn">View Details</a>
-	</div>
-
-<div class="mySlides fade">
-	<img src="image/42.1Banner.jpg" class="slider_im" alt="42.1Banner">
-</div>
-
-</div>
-
-
-
-<div style="text-align: center;position: relative; z-index: 155; margin-top: -40px; margin-bottom: 23px;">
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-
-<!--<div class="banner">
+<div class="banner">
 	<div class="container">
 		<div class="banner-main">
 			<h2>Open House</h2>
@@ -339,27 +229,4 @@ function Captcha(){
 <!--footer start here-->
 		<?php include "include/footer.php" ?>
 <!--footer end here-->
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
 </html>

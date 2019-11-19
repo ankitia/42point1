@@ -2,7 +2,7 @@
 <html>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-		<title>42.1</title>
+		<title>Gear-up | 42.1</title>
 		<link rel="shortcut icon" type="image/png" href="image/favicon.png"/>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -41,8 +41,60 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
-<!-- End Google Tag Manager -->
 
+<!-- End Google Tag Manager -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "42.1",
+  "image": "http://www.42point1.com/image/logo-dark.png",
+  "@id": "",
+  "url": "http://www.42point1.com/",
+  "telephone": "+91 79 6611 8081",
+  "priceRange": "500",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "A – 601, Westgate, Near YMCA",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380015",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.003267,
+    "longitude": 72.50147089999996
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "15:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "15:00",
+    "closes": "22:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "42.1",
+  "url": "http://www.42point1.com/",
+  "logo": "http://www.42point1.com/image/logo-dark.png",
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -51,109 +103,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<?php include "include/header.php" ?>
 
 <!--banner start here-->
-<div class="bannerin">
+<div class="gearupbanner">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Gear Up</h2>
+			<h1>Gear Up</h1>
 		</div>
 	</div>
 </div>
 <!--banner end here-->
 
 <!--single start here-->
-		 <div class="single">
-			<div class="container">
-			<div class="col-md-12 ">
-				<div class=" single-grid" style="text-align:justify;">
-
-						<img src="image/gear-up-icone.png" alt="gear-up" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
-						<!--<h4>HUDDLE</h4>-->
-						<div class="cal">
-							<ul>
-								<!--<li><span ><i class="glyphicon glyphicon-calendar"> </i>12.12.2018</span></li>-->
-								<!--<li><a href="#" ><i class="glyphicon glyphicon-comment"> </i>24</a></li>-->
-							</ul>
-						</div>
-						<p>Welcome to Gear Up, an exclusive offline store designed for the 42.1 community members to help them find the right gear at the best price. Gear Up looks to offer an extensive range of sports merchandise and equipment with the aim of serving and inspiring athletes and outdoor enthusiasts to achieve their personal best.	</p>
-
-						<p>We want the experience of buying the products to be as fun as owning them. We stand by the products and offer only a curated line of merchandise. We believe in continuous improvement and are always looking to serve you with the best.</p>
-
-						<p>So, if there is something the store does not provide, do let us know! We'll do our best to source said merchandise/gear for you. We request you to keep checking this space for updates. Alternatively, you could subscribe to our newsletter and be among the firsts to receive any news or update.</p>
-
-						<p>To become a member, fill out a <strong>Membership Form</strong>.<p>
-
-
-				</div>
-<!--
-					<div class=" single-profile">
-				<h4> Related Posts</h4>
-				<div class="single-left ">
-					<div class="col-md-3 post-top">
-					<a href="single.html"><img class="img-responsive " src="images/s1.jpg" alt=""></a>
-						<h6><a href="single.html">Duis autem</a></h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer.</p>
-					</div>
-					<div class="col-md-3 post-top">
-					<a href="single.html"><img class="img-responsive " src="images/s2.jpg" alt=""></a>
-						<h6><a href="single.html">Duis autem</a></h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer.</p>
-					</div>
-					<div class="col-md-3 post-top">
-					<a href="single.html"><img class="img-responsive " src="images/s3.jpg" alt=""></a>
-						<h6><a href="single.html">Duis autem</a></h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer.</p>
-					</div>
-					<div class="col-md-3 post-top">
-					<a href="single.html"><img class="img-responsive " src="images/s4.jpg" alt=""></a>
-						<h6><a href="single.html">Duis autem</a></h6>
-						<p>Lorem ipsum dolor sit amet, consectetuer.</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>--->
-			<!---728x90--->
-
-
-				</div>
-					<!--<div class="col-md-3 categories-grid">
-				<div class="grid-categories">
-					<h4>Categories</h4>
-					<ul class="popular ">
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Nutrition</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Wholesome Meals</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Athlete Diet</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-play"> </i>Food</a></li>
-					</ul>
-				</div>
-			</div>-->
-				<div class="clearfix"> </div>
-
-			</div>
-
-		<!--	<div class="test-grid-img">
+<div class="single">
 	<div class="container">
-		<div class="test-grid-img-main">
-			  <div class="col-md-4 test-grid">
-			  		<a href="#">
-							<img src="images/t1.jpg" alt="" class="img-responsive">
-						</a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t2.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			  <div class="col-md-4 test-grid">
-			  	<a href="#"><img src="images/t3.jpg" alt="" class="img-responsive"></a>
-			  </div>
-			<div class="clearfix"> </div>
+		<div class="col-md-12 ">
+			<div class=" single-grid" style="text-align:justify;">
+				<img src="image/gear-up-icone.png" alt="gear-up" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
+				<p>Welcome to Gear Up, an exclusive offline store designed for the 42.1 community members to help them find the right gear at the best price. Gear Up looks to offer an extensive range of sports merchandise and equipment with the aim of serving and inspiring athletes and outdoor enthusiasts to achieve their personal best.	</p>
+				<p>We want the experience of buying the products to be as fun as owning them. We stand by the products and offer only a curated line of merchandise. We believe in continuous improvement and are always looking to serve you with the best.</p>
+				<p>So, if there is something the store does not provide, do let us know! We'll do our best to source said merchandise/gear for you. We request you to keep checking this space for updates. Alternatively, you could subscribe to our newsletter and be among the firsts to receive any news or update.</p>
+				<p>To become a member, fill out a <strong><a href="<?php echo $server_name ?>#contact">Membership Form</a></strong>.<p>
+			</div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
-</div> -->
-
-
-	</div>
-
+</div>
 <!--//single end here-->
+
 <!--footer start here-->
-		<?php include "include/footer.php" ?>
+<div class="ngt-margin-gear-up"> 
+	<?php include "include/footer.php" ?>
+</div>
 <!--footer end here-->
 </html>
+	

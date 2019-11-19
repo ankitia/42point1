@@ -20,7 +20,7 @@ $persong = $_POST['persong'];
 $clubGroup = $_POST['clubGroup'];
 $trained = $_POST['trained'];
 //$inputfile = $_POST['inputfile'];
- 
+
 
 $date=date_create($bdate);
 $bdate = date_format($date,"d/m/Y");
@@ -191,7 +191,7 @@ $attachment
 
 
 
-$to = "community@42point1.com,marketing@42point1.com,ankit.shah@infoanalytica.com";
+$to = "community@42point1.com,marketing@42point1.com,ankit.s@infoanalytica.com";
 //$to = "ankit.shah@infoanalytica.com";
 $subject = "APPLICATION FORM";
 

@@ -75,7 +75,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="clearfix"> </div>
 						<p class="text-uppercase txt-color"> 5<sup>th</sup> January 2019 Saturday from 18:00-20:00 </p>
 						<p class="text-uppercase txt-color" style="margin-bottom: -10px;">6, A Wing, Westgate, Beside YMCA Club, SG Hwy</p>
-						<p class="text-uppercase txt-color">Hosted by 42point1</p>
+						<p class="text-uppercase txt-color">Hosted by 42.1</p>
 					</div>
 
 

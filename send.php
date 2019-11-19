@@ -16,7 +16,7 @@ $swimming = $_POST['swimming'];
 $triathlons = $_POST['triathlons'];
 
 $training = $_POST['training'];
-$tech = $_POST['tech'];
+$tech = $_POST['tech']; 
 $nutrition = $_POST['nutrition'];
 $injury = $_POST['injury'];
 $racing = $_POST['racing'];
@@ -57,7 +57,8 @@ if($otherGuid=="on"){
 $agree = "<input type='checkbox' checked disabled> ";
 
 
-$to = "community@42point1.com,marketing@42point1.com,ankit.shah@infoanalytica.com";
+$to = "community@42point1.com,marketing@42point1.com,ankit.s@infoanalytica.com";
+$memberTo = $email;
 //$to = "ankit.shah@infoanalytica.com";
 //$to = "community@42point1.com";
 $subject = "MEMBERSHIP FORM";
@@ -157,6 +158,56 @@ background: #B2D430;
 </html>
 ";
 
+$memberMessage = "
+<html>
+<head>
+<title>HTML email</title>
+<style>
+table, th, td {
+   border-collapse: collapse;
+}
+.back_header{
+background: #B2D430;
+}
+</style>
+</head>
+<body>
+
+<table width='500'>
+
+<tr>
+ <td width='100%' colspan='2'><p>Hi ".$name.",</p></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'><p>Thank you for showing interest in becoming a member at 42.1.</p></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'><p>We have successfully received your application and will soon get back to you with the further process of registration.</p></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'><p>Have a nice day!</p></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'></td>
+</tr>
+<tr>
+ <td width='100%' colspan='2'><p>Regards, <br>Team 42.1</p></td>
+</tr>
+
+</table>
+</body>
+</html>
+";
+
 // Always set content-type when sending HTML email
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -165,6 +216,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <marketing@42point1.com>' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
+
+mail($memberTo,$subject,$memberMessage,$headers);
 mail($to,$subject,$message,$headers);
 echo "<script type='text/javascript'>window.location.href = 'http://42point1.com/';</script>";
 //echo "this is call send mail";

@@ -42,7 +42,58 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
 <!-- End Google Tag Manager -->
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "42.1",
+  "image": "http://www.42point1.com/image/logo-dark.png",
+  "@id": "",
+  "url": "http://www.42point1.com/",
+  "telephone": "+91 79 6611 8081",
+  "priceRange": "500",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "A – 601, Westgate, Near YMCA",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380015",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.003267,
+    "longitude": 72.50147089999996
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "15:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "15:00",
+    "closes": "22:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "42.1",
+  "url": "http://www.42point1.com/",
+  "logo": "http://www.42point1.com/image/logo-dark.png",
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -54,7 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Meal-a-Mile</h2>
+			<h1>Meal-a-Mile</h1>
 		</div>
 	</div>
 </div>
@@ -67,7 +118,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div class=" single-grid">
 
 					<ul class="breadcrumb">
-					  <li><a href="http://www.42point1.com/">Home</a></li>
+					  <li><a href="<?php echo $server_name ?>">Home</a></li>
 					  <li><a href="meal-a-mile.php">MEAL-A-MILE</a></li>
 					  <li  class="text-uppercase">WORDS BY Greenobazaar</li>
 					</ul>
@@ -75,20 +126,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="lone-line" style="text-align: justify;" >
 
 						<h4  class="text-uppercase text-left gr-tx-ce" style="margin-bottom: 0px;">WORDS BY Greenobazaar</h4>
-						<span class="green_bazaar"> <img src="image/Greenobazar-logo.png" alt="GREENOBAZAAR"  /></span>
+						<span class="green_bazaar"><img src="image/Greenobazar-logo.png" alt="GREENOBAZAAR"/></span>
 						<div class="cal">
 							<ul>
 								<!--<li><span ><i class="glyphicon glyphicon-calendar"> </i>12.12.2018</span></li>-->
 								<!--<li><a href="#" ><i class="glyphicon glyphicon-comment"> </i>24</a></li>-->
 							</ul>
 						</div>
-						<p style="    margin-top: 34px;">Greenobazaar looks to promote healthy living. We are dedicated to help you choose a healthier lifestyle and offer choices of healthy varieties for consumption by providing pure and sustainable production. We serve only handpicked, certified organic and 100% natural products and work towards creating awareness about conscious consumption and sourcing for supporting our end goal of healthy living.</p>
- 
+						<p style="margin-top: 14px;">Greenobazaar looks to promote healthy living. We are dedicated to help you choose a healthier lifestyle and offer choices of healthy varieties for consumption by providing pure and sustainable production. We serve only handpicked, certified organic and 100% natural products and work towards creating awareness about conscious consumption and sourcing for supporting our end goal of healthy living.</p>
+
 						<p>Deadly & dreaded diseases are wide spread due to consumption and production of food, cosmetics and other consumer goods made from harmful and carcinogenic or non-bio degradable chemicals and materials which not only harm the end user, the consumer, but also harm the environment and the cycle of sustainability. Also, production by harmful methods adds burden of disposal which is one of the biggest challenges many countries face today. One of the ways to address the disposal of non-biodegradable goods is to efficiently recycle and up cycle them for our end use.</p>
 
 						<p>Greenobazaar does that and more! Having faith in the process of creating awareness and giving people the option of making conscious decisions, we feel secure in addressing health and environmental needs by reducing pollution directly and indirectly on our dear planet. As India is an agro based economy, adopting organic and natural agricultural methods would immediately stop soil, water and air pollution and eventually would provide us pure and nutritious food and this solution would very well address the other bigger health issue. Just imagine all of India going organic, irrespective of being poor or rich all would only consume organic and it would no more be a choice and privilege of rich but a right of every citizen (like our very own State Sikkim which is officially 100% organic today).</p>
 
-						<p>Health is our passion, be it in wanting to ensure healthy consumers or taking care of our environment. The imbibed values of Greenobazaar seemed synonymous with 42.1 and Terra and so it felt right walking along with them on a common path. We only had online presence till date and we always wished for physical presence too as our products are not only Organic but also are unique in range. Desired and utmost needed by the fitness crowd in town, healthy options were few to none. We are excited to showcase our range and help and grow by producing products that perfectly compliment the nutritional needs of the health conscious and aware folks. All these aspects turned out to be a perfect fit for us with 42.1 and Terra.<p>
+						<p>Health is our passion, be it in wanting to ensure healthy consumers or taking care of our environment. The imbibed values of Greenobazaar seemed synonymous with 42.1, so it felt right walking along with them on a common path. We only had online presence till date and we always wished for physical presence too as our products are not only Organic but also are unique in range. Desired and utmost needed by the fitness crowd in town, healthy options were few to none. We are excited to showcase our range and help and grow by producing products that perfectly compliment the nutritional needs of the health conscious and aware folks. All these aspects turned out to be a perfect fit for us with 42.1.<p>
 
 					</div>
 				</div>
@@ -141,6 +192,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!--//single end here-->
 <!--footer start here-->
+	<div class="ngt-margin-greenobazar">
 		<?php include "include/footer.php" ?>
+	</div>
 <!--footer end here-->
 </html>

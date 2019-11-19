@@ -26,58 +26,6 @@
 			});
 	</script>
 <!-- //end-smoth-scrolling -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "42.1",
-  "image": "http://www.42point1.com/image/logo-dark.png",
-  "@id": "",
-  "url": "http://www.42point1.com/",
-  "telephone": "+91 79 6611 8081",
-  "priceRange": "500",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "A – 601, Westgate, Near YMCA",
-    "addressLocality": "Ahmedabad",
-    "postalCode": "380015",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 23.003267,
-    "longitude": 72.50147089999996
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Saturday",
-    "opens": "09:00",
-    "closes": "15:00"
-  },{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Sunday",
-    "opens": "15:00",
-    "closes": "22:00"
-  }],
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "42.1",
-  "url": "http://www.42point1.com/",
-  "logo": "http://www.42point1.com/image/logo-dark.png",
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
 
 <script src='../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
 <script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
@@ -97,7 +45,7 @@
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h1>Why 42.1?</h1>
+			<h2>Why 42.1?</h2>
 		</div>
 	</div>
 </div>
@@ -114,7 +62,7 @@
 					<!--<h5>Officia deserunt mollit anim id est laborum</h5>-->
 					<p>Pain is temporary, suffering is optional, quitting lasts forever. I never fully understood the meaning of this old saying until I started running a few years ago. For the most part of my life I have followed some form of fitness or sport. However, running simply happened to me. And what’s more - very soon in my running regimen I realized it was so much more than fitness. It was meditational, medicinal almost. </p>
 					<p>I am a business owner. Much like building a business, I find running to be very grounding, very intimate. Outside of my family and work, running is a core pillar of my life, my grounding force. One needs to be extremely demonstrative to succeed with businesses and relationships. Running is the perfect antidote. This is the only time when I am truly alone. Unlike anything, when I run, I don’t have to talk or listen to anyone. I run in my cozy silence. One of my favorite authors (and long-distance runner) famously said, once “I run in a void. On the contrary, I run to acquire a void.” No wonder it’s the one time of the day I look so forward to. It’s the one time of the day I cannot do without. </p>
-					<p>Like many other runners, I run alone. Ironically, though, I have always felt a need to connect with other runners (or other endurance/long distance sports enthusiasts) in this city. Notwithstanding the mental and spiritual context, running or any other endurance sport is extremely physical. It requires know-how, nutrition, the right gear, and often a mentor for injury-free sustenance. That’s how the idea of 42.1 came about (short for 42.195 kilometers or marathon distance). You’ll find fitness groups and clubs. You’ll find health cafes and sport gear outlets. You’ll find nutritionists and trainers. But nothing that brings all of these under one roof. In other words, a community (or a commune) that is built for engagement through content, food, and gear. That’s 42.1</p>
+					<p>Like many other runners, I run alone. Ironically, though, I have always felt a need to connect with other runners (or other endurance/long distance sports enthusiasts) in this city. Notwithstanding the mental and spiritual context, running or any other endurance sport is extremely physical. It requires know-how, nutrition, the right gear, and often a mentor for injury-free sustenance. That’s how the idea of 42.1 came about (short for 42point195 kilometers or marathon distance). You’ll find fitness groups and clubs. You’ll find health cafes and sport gear outlets. You’ll find nutritionists and trainers. But nothing that brings all of these under one roof. In other words, a community (or a commune) that is built for engagement through content, food, and gear. That’s 42.1</p>
 					<p>It may almost seem that I’m trying to be a spokesperson for a movement or create a socially conscious space that appeals to fellow running and endurance fitness enthusiasts. I’m not. 42.1 merely is aimed at building a community through liking and likeness. It is a space where people who speak the same language can hang out, connect and learn through conversation and events, eat a nice, wholesome meal or buy a comfortable sports t-shirt without paying too much money. And, in the process improve the quality of their life a little. Our team of enthusiast’s curates everything.<p>
 					<p>In conclusion, I’d like to quote the author mentioned above again – “First, there came the action of running, and accompanying it there was this entity known as me. I run; therefore, I am.” Need I say more.</p>
 					<p>Feel free to browse the remaining of the site to know more.</p>
@@ -124,7 +72,7 @@
 				<div class="col-md-8 about-left text-center" > &nbsp;	</div>
 				<div class="col-md-4 about-left text-center" >
 					<img src="image/amit-profile.png" class="img-md">
-					<br /> 
+					<br />
 					<h5 class="margin-set">Amit Gupta</h5>
 					<p>Founder</p>
 				</div>

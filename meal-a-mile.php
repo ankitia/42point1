@@ -2,7 +2,7 @@
 <html>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-		<title>42.1 | Meal-a-Mile</title>
+		<title>Meal-a-Mile | 42.1</title>
 		<link rel="shortcut icon" type="image/png" href="image/favicon.png"/>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -42,7 +42,58 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
 <!-- End Google Tag Manager -->
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "42.1",
+  "image": "http://www.42point1.com/image/logo-dark.png",
+  "@id": "",
+  "url": "http://www.42point1.com/",
+  "telephone": "+91 79 6611 8081",
+  "priceRange": "500",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "A – 601, Westgate, Near YMCA",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380015",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.003267,
+    "longitude": 72.50147089999996
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "09:00",
+    "closes": "15:00"
+  },{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "15:00",
+    "closes": "22:00"
+  }],
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "42.1",
+  "url": "http://www.42point1.com/",
+  "logo": "http://www.42point1.com/image/logo-dark.png",
+  "sameAs": [
+    "https://www.facebook.com/42point1/",
+    "https://www.instagram.com/42point1/"
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -54,7 +105,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="bannerin">
 	<div class="container">
 		<div class="banner-inner">
-			<h2>Meal-a-Mile</h2>
+			<h1>Meal-a-Mile</h1>
 		</div>
 	</div>
 </div>
@@ -69,10 +120,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 					<div class="lone-line" style="text-align:justify;">
 						<img src="image/meal-icon.png" alt="Meal-a-Mile" style="float: left; margin: 5px 15px 10px 10px;height:50px;" />
-						<p>Welcome to Meal-a-Mile!  The food we serve caters to the needs of endurance sports enthusiasts or anyone looking out for healthy food alternatives. The fresher the ingredients, the more delicious and healthier your meal will be! Hence, we ensure fresh and healthy ingredients are the mainstay of the dishes that we serve. Terra is our meal partner, and they ensure that you can bond with fellow endurance sport athletes and food lovers over some seriously delicious yet healthy food.
+						<p>Welcome to Meal-a-Mile!  The food we serve caters to the needs of endurance sports enthusiasts or anyone looking out for healthy food alternatives. The fresher the ingredients, the more delicious and healthier your meal will be! Hence, we ensure fresh and healthy ingredients are the mainstay of the dishes that we serve.
 							</p>
 
-						<p>Meal-a-Mile currently operates only on weekends and is exclusive to 42point1 community members. At Meal-a-Mile we care about your health as much as your taste buds. Repetition is boring, so we like to keep things fresh with a custom curated menu. This way you can try something new every time you visit especially since the meals are not only fresh and healthy but also are light on the pocket. All meals come at a special discounted price for all community members.</p>
+						<p>Meal-a-Mile currently operates only on weekends. At Meal-a-Mile we care about your health as much as your taste buds. Repetition is boring, so we like to keep things fresh with a custom curated menu. This way you can try something new every time you visit especially since the meals are not only fresh and healthy but also are light on the pocket. All meals come at a special discounted price for all community members.</p>
 
 						<p>We also have on board Greenobazaar, whose premium products you can shop at Meal-a-Mile. From millet noodles to organic pumpkin seeds and everything in between you will find here! </p>
 
@@ -114,9 +165,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<div class="col-md-3 categories-grid">
 				<div class="grid-categories">
 					<h4 class="text-uppercase">Partners</h4>
-					<ul class="popular ">
-						<li><a href="terra.php"><i class="glyphicon glyphicon-play"> </i>TERRA</a></li>
-						<li><a href="greenobazaar.php" class="text-uppercase"><i class="glyphicon glyphicon-play"> </i>Greenobazaar</a></li>
+					<ul class="popular">
+						<li><a href="greenobazaar.php" class="text-uppercase"><i class="glyphicon glyphicon-play"></i>Greenobazaar</a></li>
 					</ul>
 				</div>
 			</div>
@@ -127,6 +177,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!--//single end here-->
 <!--footer start here-->
+	<div class="ngt-margin-meal-a-mile"> 
 		<?php include "include/footer.php" ?>
+	</div>
 <!--footer end here-->
 </html>

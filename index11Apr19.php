@@ -19,8 +19,11 @@
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/core/schema.js"></script>
 <!-- //end-smoth-scrolling -->
+
+<script src='../../../../ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+<script src="../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
@@ -33,16 +36,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KM4X7LN');</script>
 <!-- End Google Tag Manager -->
-
-
-
-<!--<script type="text/javascript">
-	$(document).ready(function(){
-	
-    $( "#dialog" ).dialog();
-  
-	});
-</script>-->
 <script type="text/javascript">
 $( '#subscribeButton' ).click(function() {
   fbq('track', 'Subscribe');
@@ -106,60 +99,6 @@ function Captcha(){
 
 
 </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "42.1",
-  "image": "http://www.42point1.com/image/logo-dark.png",
-  "@id": "",
-  "url": "http://www.42point1.com/",
-  "telephone": "+91 79 6611 8081",
-  "priceRange": "500",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "A – 601, Westgate, Near YMCA",
-    "addressLocality": "Ahmedabad",
-    "postalCode": "380015",
-    "addressCountry": "IN"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 23.003267,
-    "longitude": 72.50147089999996
-  },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Saturday",
-    "opens": "09:00",
-    "closes": "15:00"
-  },{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": "Sunday",
-    "opens": "15:00",
-    "closes": "22:00"
-  }],
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "42.1",
-  "url": "http://www.42point1.com/",
-  "logo": "http://www.42point1.com/image/logo-dark.png",
-  "sameAs": [
-    "https://www.facebook.com/42point1/",
-    "https://www.instagram.com/42point1/"
-  ]
-}
-</script>
- 
-
 
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
@@ -183,9 +122,6 @@ function Captcha(){
 		</div>
 	</div>
 </div>
-<!--<div id="dialog" title="Basic dialog">
-  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-</div>-->
 
 <div class="modal fade" id="termscondition" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	 <div class="modal-dialog">
@@ -248,8 +184,8 @@ function Captcha(){
 <div class="top-header-text">
 	<div class="container">
 			<div class="col-md-12 index-huddle-margin">
-					<h1 class="text-uppercase">Huddle</h1>
-					<p class="mg-tp-20 huddle-btn">Welcome to Huddle! Venture into the world of endurance sports with us. </p>
+					<h3 class="text-uppercase">Huddle</h3>
+					<p class="mg-tp-20 huddle-btn">Welcome to Huddle! Venture into the world of everything endurance sports with us. </p>
 					<a class="btnout  red mg-bt-30 text-uppercase" href="huddle.php">Read More</a>
 
 			</div>
@@ -259,8 +195,8 @@ function Captcha(){
 <div class="top-meal-text">
 	<div class="container">
 			<div class="col-md-6">&nbsp;</div>
-			<div class="col-md-6 text-left meal-textalign-mobile">
-					<h1 class="text-uppercase">MEAL A MILE</h1>
+			<div class="col-md-6 text-left">
+					<h3 class="text-uppercase">MEAL A MILE</h3>
 						<p class="meal_mile_header txt_just">Open on weekends only, for now, Meal-a-Mile serves food that is sensitive to the needs of endurance enthusiasts or anyone looking to make their day a bit healthier and a lot brighter. </p> <br />
 						<a class="btnout meal-btn red mg-bt-30 text-uppercase" href="meal-a-mile.php">Read More</a>
 				 </div>
@@ -268,8 +204,8 @@ function Captcha(){
 	</div>
 	<div class="top-gearup-text">
 		<div class="container">
-				<div class="col-md-6 gear_text text-left gear-textalign-mobile">
-					<h1 class="text-uppercase">Gear up</h1>
+				<div class="col-md-6 gear_text text-left">
+					<h3 class="text-uppercase">Gear up</h3>
 					<p class="txt_just">Gear Up is an exclusive range of curated gear designed for the 42.1 community members to help them find the right gear at the best price.</p><br />
 					<a class="btnout red mg-bt-30 text-uppercase" href="gear-up.php">Read More</a>
 				</div>
@@ -279,8 +215,8 @@ function Captcha(){
 		<div class="top-whatsup-text">
 			<div class="container">
 					<div class="col-md-6">&nbsp;</div>
-					<div class="col-md-6 text-left whatsup-textalign-mobile">
-							<h1 class="text-uppercase txt_just">What's up?</h1>
+					<div class="col-md-6 text-left">
+							<h3 class="text-uppercase txt_just">What's up?</h3>
 		  			 		<p>Bookmark this page to search and register online </p>
 								<p>for upcoming races and team sports events.</p> <br />
 								<a class="btnout whatsup_btn red mg-bt-30 text-uppercase" href="whats-up.php">Read More</a>
@@ -294,7 +230,7 @@ function Captcha(){
 				<div class="container">
 					  <div class="col-md-1">&nbsp;</div>
 							<div class="col-md-10 text-center">
-									<h1 class="text-uppercase">Adopt an Athlete</h1>
+									<h3 class="text-uppercase">Adopt an Athlete</h3>
 									<p style="margin-right: 4%;" >Adopt an Athlete is an iA Foundation initiative designed to give people access to the right resources to hone their skills in a sport of their choice. Sports like athletics, cricket, football, kabaddi, etc. are included in Adopt an Athlete program.42.1 looks to mentor budding athletes and help them train better by providing them with the right resources.</p>
 									<br />
 									<a class="btnout_wh danger mg-bt-30 mg-tp-10 text-uppercase" href="adopt.php">Read More</a>
@@ -309,7 +245,7 @@ function Captcha(){
 	<div class="container">
 		<div class="contact-main">
 			<div class="contact-top">
-				<h1 class="text-uppercase">Membership Form</h1>
+				<h3 class="text-uppercase">Membership Form</h3>
 				<p>Become a member and get an exclusive access to the latest happenings in the world of endurance sports, wholesome foods and sports gear. To know more click on <a href="#" data-toggle="modal" data-target="#memberbenifit"> Member Benefits</a>.</p>
 			</div>
 		<form action="send.php" id="myForm" onsubmit="return formSubmit();" method="post">
